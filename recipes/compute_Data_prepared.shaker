@@ -27,7 +27,42 @@
     },
     "autoRefreshSample": false
   },
-  "explorationFilters": [],
+  "explorationFilters": [
+    {
+      "validityFilter": {
+        "column": "2012",
+        "type": "validity",
+        "params": {
+          "nok": false,
+          "type": "DoubleMeaning",
+          "ok": true,
+          "empty": false
+        }
+      },
+      "column": "2012",
+      "active": true,
+      "alphanumFilter": {
+        "selectedValues": [],
+        "column": "2012",
+        "type": "alphanum",
+        "params": {
+          "mode": "full_string",
+          "normalization": "exact"
+        }
+      },
+      "type": "columnFilter",
+      "$$hashKey": "object:56882",
+      "facet": {
+        "columnType": "NUMERICAL",
+        "selectedValues": {},
+        "column": "2012",
+        "sort": "count",
+        "type": "facet",
+        "currentMode": "NUMERICAL"
+      },
+      "currentMode": "FACET"
+    }
+  ],
   "columnUseScientificNotationByName": {},
   "origin": "PREPARE_RECIPE",
   "exploreUIParams": {
@@ -41,6 +76,8 @@
       "type": "ColumnsSelector",
       "params": {
         "columns": [
+          "2015",
+          "2016",
           "2017",
           "2020",
           "2025",
