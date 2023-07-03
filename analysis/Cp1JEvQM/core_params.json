@@ -1,7 +1,20 @@
 {
   "inputDatasetSmartName": "Data_prepared",
   "script": {
-    "steps": [],
+    "steps": [
+      {
+        "type": "RemoveRowsOnEmpty",
+        "params": {
+          "keep": true,
+          "appliesTo": "ALL",
+          "columns": []
+        },
+        "metaType": "PROCESSOR",
+        "preview": true,
+        "disabled": false,
+        "alwaysShowComment": false
+      }
+    ],
     "maxProcessedMemTableBytes": -1,
     "columnsSelection": {
       "mode": "ALL"
@@ -337,11 +350,11 @@
   ],
   "name": "Analyze Data_prepared",
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1688412517578,
+    "lastModifiedOn": 1688413228100,
     "extendedProperties": {}
   },
   "creationTag": {
