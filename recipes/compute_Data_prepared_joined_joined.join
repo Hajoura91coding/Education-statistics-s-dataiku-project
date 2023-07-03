@@ -1,0 +1,396 @@
+{
+  "joins": [
+    {
+      "table2": 1,
+      "table1": 0,
+      "conditionsMode": "AND",
+      "type": "LEFT",
+      "outerJoinOnTheLeft": true,
+      "on": []
+    }
+  ],
+  "selectedColumns": [
+    {
+      "name": "Country Name",
+      "table": 0
+    },
+    {
+      "name": "Country Code",
+      "table": 0
+    },
+    {
+      "name": "Indicator Name",
+      "table": 0
+    },
+    {
+      "name": "Indicator Code",
+      "table": 0
+    },
+    {
+      "name": "1970",
+      "table": 0
+    },
+    {
+      "name": "1971",
+      "table": 0
+    },
+    {
+      "name": "1972",
+      "table": 0
+    },
+    {
+      "name": "1973",
+      "table": 0
+    },
+    {
+      "name": "1974",
+      "table": 0
+    },
+    {
+      "name": "1975",
+      "table": 0
+    },
+    {
+      "name": "1976",
+      "table": 0
+    },
+    {
+      "name": "1977",
+      "table": 0
+    },
+    {
+      "name": "1978",
+      "table": 0
+    },
+    {
+      "name": "1979",
+      "table": 0
+    },
+    {
+      "name": "1980",
+      "table": 0
+    },
+    {
+      "name": "1981",
+      "table": 0
+    },
+    {
+      "name": "1982",
+      "table": 0
+    },
+    {
+      "name": "1983",
+      "table": 0
+    },
+    {
+      "name": "1984",
+      "table": 0
+    },
+    {
+      "name": "1985",
+      "table": 0
+    },
+    {
+      "name": "1986",
+      "table": 0
+    },
+    {
+      "name": "1987",
+      "table": 0
+    },
+    {
+      "name": "1988",
+      "table": 0
+    },
+    {
+      "name": "1989",
+      "table": 0
+    },
+    {
+      "name": "1990",
+      "table": 0
+    },
+    {
+      "name": "1991",
+      "table": 0
+    },
+    {
+      "name": "1992",
+      "table": 0
+    },
+    {
+      "name": "1993",
+      "table": 0
+    },
+    {
+      "name": "1994",
+      "table": 0
+    },
+    {
+      "name": "1995",
+      "table": 0
+    },
+    {
+      "name": "1996",
+      "table": 0
+    },
+    {
+      "name": "1997",
+      "table": 0
+    },
+    {
+      "name": "1998",
+      "table": 0
+    },
+    {
+      "name": "1999",
+      "table": 0
+    },
+    {
+      "name": "2000",
+      "table": 0
+    },
+    {
+      "name": "2001",
+      "table": 0
+    },
+    {
+      "name": "2002",
+      "table": 0
+    },
+    {
+      "name": "2003",
+      "table": 0
+    },
+    {
+      "name": "2004",
+      "table": 0
+    },
+    {
+      "name": "2005",
+      "table": 0
+    },
+    {
+      "name": "2006",
+      "table": 0
+    },
+    {
+      "name": "2007",
+      "table": 0
+    },
+    {
+      "name": "2008",
+      "table": 0
+    },
+    {
+      "name": "2009",
+      "table": 0
+    },
+    {
+      "name": "2010",
+      "table": 0
+    },
+    {
+      "name": "2011",
+      "table": 0
+    },
+    {
+      "name": "2012",
+      "table": 0
+    },
+    {
+      "name": "2013",
+      "table": 0
+    },
+    {
+      "name": "2014",
+      "table": 0
+    },
+    {
+      "name": "Long definition",
+      "table": 0
+    },
+    {
+      "name": "Short Name",
+      "table": 1
+    },
+    {
+      "name": "Table Name",
+      "table": 1
+    },
+    {
+      "name": "Long Name",
+      "table": 1
+    },
+    {
+      "name": "2-alpha code",
+      "table": 1
+    },
+    {
+      "name": "Currency Unit",
+      "table": 1
+    },
+    {
+      "name": "Special Notes",
+      "table": 1
+    },
+    {
+      "name": "Region",
+      "table": 1
+    },
+    {
+      "name": "Income Group",
+      "table": 1
+    },
+    {
+      "name": "WB-2 code",
+      "table": 1
+    },
+    {
+      "name": "National accounts base year",
+      "table": 1
+    },
+    {
+      "name": "National accounts reference year",
+      "table": 1
+    },
+    {
+      "name": "SNA price valuation",
+      "table": 1
+    },
+    {
+      "name": "Lending category",
+      "table": 1
+    },
+    {
+      "name": "Other groups",
+      "table": 1
+    },
+    {
+      "name": "System of National Accounts",
+      "table": 1
+    },
+    {
+      "name": "Alternative conversion factor",
+      "table": 1
+    },
+    {
+      "name": "PPP survey year",
+      "table": 1
+    },
+    {
+      "name": "Balance of Payments Manual in use",
+      "table": 1
+    },
+    {
+      "name": "External debt Reporting status",
+      "table": 1
+    },
+    {
+      "name": "System of trade",
+      "table": 1
+    },
+    {
+      "name": "Government Accounting concept",
+      "table": 1
+    },
+    {
+      "name": "IMF data dissemination standard",
+      "table": 1
+    },
+    {
+      "name": "Latest population census",
+      "table": 1
+    },
+    {
+      "name": "Latest household survey",
+      "table": 1
+    },
+    {
+      "name": "Source of most recent Income and expenditure data",
+      "table": 1
+    },
+    {
+      "name": "Vital registration complete",
+      "table": 1
+    },
+    {
+      "name": "Latest agricultural census",
+      "table": 1
+    },
+    {
+      "name": "Latest industrial data",
+      "table": 1
+    },
+    {
+      "name": "Latest trade data",
+      "table": 1
+    },
+    {
+      "name": "Latest water withdrawal data",
+      "table": 1
+    },
+    {
+      "name": "col_31",
+      "table": 1
+    }
+  ],
+  "resolvedSelectedColumns": [],
+  "engineParams": {
+    "hive": {
+      "skipPrerunValidate": false,
+      "hiveconf": [],
+      "inheritConf": "default",
+      "addDkuUdf": false,
+      "executionEngine": "HIVESERVER2"
+    },
+    "sqlPipelineParams": {
+      "pipelineAllowMerge": true,
+      "pipelineAllowStart": true
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true,
+    "sparkSQL": {
+      "skipPrerunValidate": false,
+      "pipelineAllowMerge": true,
+      "useGlobalMetastore": false,
+      "pipelineAllowStart": true,
+      "readParams": {
+        "mode": "AUTO",
+        "autoModeRepartitionInto": 10,
+        "map": {}
+      },
+      "overwriteOutputSchema": false,
+      "executionEngine": "SPARK_SUBMIT",
+      "sparkConfig": {
+        "inheritConf": "default",
+        "conf": []
+      }
+    }
+  },
+  "virtualInputs": [
+    {
+      "outputColumnsSelectionMode": "AUTO_NON_CONFLICTING",
+      "preFilter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "originLabel": "Data_prepared_joined",
+      "index": 0,
+      "computedColumns": []
+    },
+    {
+      "outputColumnsSelectionMode": "AUTO_NON_CONFLICTING",
+      "preFilter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "originLabel": "Country",
+      "index": 1,
+      "computedColumns": []
+    }
+  ],
+  "enableAutoCastInJoinConditions": false
+}
