@@ -61,11 +61,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1688412222839,
+    "lastModifiedOn": 1688413926940,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -138,9 +138,7 @@
       {"name":"2011","type":"double"},
       {"name":"2012","type":"double"},
       {"name":"2013","type":"double"},
-      {"name":"2014","type":"double"},
-      {"name":"2015","type":"double"},
-      {"name":"2016","type":"double"}
+      {"name":"2014","type":"double"}
     ],
     "userModified": true
   },
