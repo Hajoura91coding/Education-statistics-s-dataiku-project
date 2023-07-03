@@ -67,6 +67,20 @@
         "appliesTo": "COLUMNS"
       },
       "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "RemoveRowsOnEmpty",
+      "params": {
+        "columns": [
+          "2012"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
     }
   ],
   "maxProcessedMemTableBytes": -1,
