@@ -61,11 +61,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1688411950095,
+    "lastModifiedOn": 1688412222839,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -140,26 +140,7 @@
       {"name":"2013","type":"double"},
       {"name":"2014","type":"double"},
       {"name":"2015","type":"double"},
-      {"name":"2016","type":"double"},
-      {"name":"2017","type":"string"},
-      {"name":"2020","type":"string"},
-      {"name":"2025","type":"string"},
-      {"name":"2030","type":"string"},
-      {"name":"2035","type":"string"},
-      {"name":"2040","type":"string"},
-      {"name":"2045","type":"string"},
-      {"name":"2050","type":"string"},
-      {"name":"2055","type":"string"},
-      {"name":"2060","type":"string"},
-      {"name":"2065","type":"string"},
-      {"name":"2070","type":"string"},
-      {"name":"2075","type":"string"},
-      {"name":"2080","type":"string"},
-      {"name":"2085","type":"string"},
-      {"name":"2090","type":"string"},
-      {"name":"2095","type":"string"},
-      {"name":"2100","type":"string"},
-      {"name":"col_69","type":"string"}
+      {"name":"2016","type":"double"}
     ],
     "userModified": true
   },
