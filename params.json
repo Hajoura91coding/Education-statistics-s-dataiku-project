@@ -141,6 +141,7 @@
   },
   "name": "Education Statistics",
   "projectStatus": "Sandbox",
+  "imgPattern": 4,
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -196,6 +197,14 @@
       "checks": []
     }
   },
+  "versionTag": {
+    "versionNumber": 5,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1688410892406,
+    "extendedProperties": {}
+  },
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
@@ -204,6 +213,7 @@
     "lastModifiedOn": 1688410686016,
     "extendedProperties": {}
   },
+  "description": "Les données sont issues du site data catalog world bank. Ils décrivent par plusieurs indicateurs l\u0027éducation mondiale. Le but est de prendre la main sur Dataiku, apprendre à analyser, créer des chart de qualités , un dashboard.\n\nC\u0027est parti !",
   "shortDesc": "The project *Education Statistics* was created by Agar BLOHORN on Jul 03rd 2023",
   "tags": [],
   "customFields": {},
