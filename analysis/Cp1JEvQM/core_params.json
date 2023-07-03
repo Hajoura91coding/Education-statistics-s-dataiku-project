@@ -3,11 +3,18 @@
   "script": {
     "steps": [
       {
-        "type": "RemoveRowsOnEmpty",
+        "type": "ColumnsSelector",
         "params": {
-          "keep": true,
-          "appliesTo": "ALL",
-          "columns": []
+          "keep": false,
+          "appliesTo": "COLUMNS",
+          "columns": [
+            "1970",
+            "1972",
+            "1973",
+            "1975",
+            "1974",
+            "1976"
+          ]
         },
         "metaType": "PROCESSOR",
         "preview": true,
@@ -350,11 +357,11 @@
   ],
   "name": "Analyze Data_prepared",
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 11,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1688413228100,
+    "lastModifiedOn": 1688413344360,
     "extendedProperties": {}
   },
   "creationTag": {
