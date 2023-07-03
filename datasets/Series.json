@@ -61,11 +61,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1688411525782,
+    "lastModifiedOn": 1688411525939,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -78,7 +78,6 @@
   },
   "tags": [],
   "params": {
-    "uploadBoxId": "e869fafdc61fa3876521fbe50cd3e9def91d043a14ca2324204096958a7743a0",
     "files": [
       "/EdStatsSeries.csv"
     ],
