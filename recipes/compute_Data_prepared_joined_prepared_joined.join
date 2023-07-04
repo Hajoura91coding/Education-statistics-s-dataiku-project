@@ -4,7 +4,7 @@
       "table2": 1,
       "table1": 0,
       "conditionsMode": "AND",
-      "type": "LEFT_ANTI",
+      "type": "RIGHT",
       "outerJoinOnTheLeft": true,
       "on": [
         {
@@ -551,6 +551,14 @@
           },
           {
             "name": "Long definition",
+            "type": "string"
+          },
+          {
+            "name": "Region",
+            "type": "string"
+          },
+          {
+            "name": "Income Group",
             "type": "string"
           }
         ],
