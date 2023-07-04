@@ -1,6 +1,204 @@
 {
   "columnsSelection": {
-    "mode": "ALL"
+    "mode": "SELECT",
+    "list": [
+      {
+        "d": true,
+        "name": "Country Name"
+      },
+      {
+        "d": true,
+        "name": "Country Code"
+      },
+      {
+        "d": true,
+        "name": "Indicator Name"
+      },
+      {
+        "d": true,
+        "name": "Indicator Code"
+      },
+      {
+        "d": true,
+        "name": "1970"
+      },
+      {
+        "d": true,
+        "name": "1971"
+      },
+      {
+        "d": true,
+        "name": "1972"
+      },
+      {
+        "d": true,
+        "name": "1973"
+      },
+      {
+        "d": true,
+        "name": "1974"
+      },
+      {
+        "d": true,
+        "name": "1975"
+      },
+      {
+        "d": true,
+        "name": "1976"
+      },
+      {
+        "d": true,
+        "name": "1977"
+      },
+      {
+        "d": true,
+        "name": "1978"
+      },
+      {
+        "d": true,
+        "name": "1979"
+      },
+      {
+        "d": true,
+        "name": "1980"
+      },
+      {
+        "d": true,
+        "name": "1981"
+      },
+      {
+        "d": true,
+        "name": "1982"
+      },
+      {
+        "d": true,
+        "name": "1983"
+      },
+      {
+        "d": true,
+        "name": "1984"
+      },
+      {
+        "d": true,
+        "name": "1985"
+      },
+      {
+        "d": true,
+        "name": "1986"
+      },
+      {
+        "d": true,
+        "name": "1987"
+      },
+      {
+        "d": true,
+        "name": "1988"
+      },
+      {
+        "d": true,
+        "name": "1989"
+      },
+      {
+        "d": true,
+        "name": "1990"
+      },
+      {
+        "d": true,
+        "name": "1991"
+      },
+      {
+        "d": true,
+        "name": "1992"
+      },
+      {
+        "d": true,
+        "name": "1993"
+      },
+      {
+        "d": true,
+        "name": "1994"
+      },
+      {
+        "d": true,
+        "name": "1995"
+      },
+      {
+        "d": true,
+        "name": "1996"
+      },
+      {
+        "d": true,
+        "name": "1997"
+      },
+      {
+        "d": true,
+        "name": "1998"
+      },
+      {
+        "d": true,
+        "name": "1999"
+      },
+      {
+        "d": true,
+        "name": "2000"
+      },
+      {
+        "d": true,
+        "name": "2001"
+      },
+      {
+        "d": true,
+        "name": "2002"
+      },
+      {
+        "d": true,
+        "name": "2003"
+      },
+      {
+        "d": true,
+        "name": "2004"
+      },
+      {
+        "d": true,
+        "name": "2005"
+      },
+      {
+        "d": true,
+        "name": "2006"
+      },
+      {
+        "d": true,
+        "name": "2007"
+      },
+      {
+        "d": true,
+        "name": "2008"
+      },
+      {
+        "d": true,
+        "name": "2009"
+      },
+      {
+        "d": true,
+        "name": "2010"
+      },
+      {
+        "d": true,
+        "name": "2011"
+      },
+      {
+        "d": true,
+        "name": "2012"
+      },
+      {
+        "d": true,
+        "name": "2013"
+      },
+      {
+        "d": true,
+        "name": "2014"
+      }
+    ]
   },
   "explorationSampling": {
     "_refreshTrigger": 0,
@@ -29,8 +227,60 @@
   },
   "explorationFilters": [],
   "columnUseScientificNotationByName": {},
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "2015",
+          "2016",
+          "2017",
+          "2020",
+          "2025",
+          "2030",
+          "2035",
+          "2040",
+          "2045",
+          "2050",
+          "2055",
+          "2060",
+          "2065",
+          "2070",
+          "2075",
+          "2080",
+          "2085",
+          "2090",
+          "2095",
+          "2100",
+          "col_69"
+        ],
+        "keep": false,
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "RemoveRowsOnEmpty",
+      "params": {
+        "columns": [
+          "2011"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -57,7 +307,78 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "2070": 100,
+    "Country Name": 300,
+    "2075": 100,
+    "2030": 100,
+    "1976": 134,
+    "1975": 134,
+    "1974": 134,
+    "1973": 134,
+    "1972": 134,
+    "1971": 134,
+    "1970": 134,
+    "2025": 100,
+    "1979": 134,
+    "1978": 134,
+    "1977": 134,
+    "2080": 100,
+    "1990": 134,
+    "2001": 134,
+    "2045": 100,
+    "2000": 134,
+    "2085": 100,
+    "2040": 100,
+    "1987": 134,
+    "1986": 134,
+    "1985": 134,
+    "1984": 134,
+    "1983": 134,
+    "1982": 134,
+    "1981": 134,
+    "1980": 134,
+    "2035": 100,
+    "1989": 134,
+    "1988": 134,
+    "2090": 100,
+    "Indicator Code": 225,
+    "2012": 134,
+    "2011": 134,
+    "2055": 100,
+    "2010": 134,
+    "2095": 100,
+    "2050": 100,
+    "1998": 134,
+    "2009": 134,
+    "1997": 134,
+    "2008": 134,
+    "1996": 134,
+    "2007": 134,
+    "1995": 134,
+    "2006": 134,
+    "1994": 134,
+    "2005": 134,
+    "1993": 134,
+    "2004": 134,
+    "1992": 134,
+    "2003": 134,
+    "1991": 134,
+    "2002": 134,
+    "col_69": 100,
+    "1999": 134,
+    "Indicator Name": 300,
+    "2100": 100,
+    "2065": 100,
+    "2020": 100,
+    "2060": 100,
+    "2017": 100,
+    "2016": 134,
+    "2015": 134,
+    "2014": 134,
+    "2013": 134,
+    "Country Code": 105
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
