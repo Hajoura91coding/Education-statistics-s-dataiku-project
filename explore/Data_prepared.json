@@ -74,14 +74,64 @@
       "def": {
         "type": "grouped_columns",
         "variant": "normal",
-        "name": "New chart",
+        "name": "Count by Country Name",
         "userEditedName": false,
         "displayWithEChartsByDefault": true,
-        "genericDimension0": [],
+        "genericDimension0": [
+          {
+            "column": "Country Name",
+            "type": "ALPHANUM",
+            "numParams": {
+              "emptyBinsMode": "ZEROS"
+            },
+            "maxValues": 20,
+            "generateOthersCategory": true,
+            "oneTickPerBin": false,
+            "filters": [],
+            "isA": "dimension",
+            "possibleSorts": [
+              {
+                "type": "NATURAL",
+                "label": "Natural ordering",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Count of records, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Count of records, ascending",
+                "sortAscending": true
+              }
+            ],
+            "sort": {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Count of records, descending"
+            }
+          }
+        ],
         "genericDimension1": [],
         "facetDimension": [],
         "animationDimension": [],
-        "genericMeasures": [],
+        "genericMeasures": [
+          {
+            "function": "COUNT",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0,
+            "showDisplayLabel": true,
+            "labelPosition": "BOTTOM",
+            "colorRules": []
+          }
+        ],
         "xDimension": [],
         "yDimension": [],
         "uaXDimension": [],
@@ -234,6 +284,7 @@
           "defaultRadius": 5.0,
           "singleShape": "FILLED_CIRCLE"
         },
+        "computeMode": "NORMAL",
         "xAxisMode": "NORMAL",
         "yAxisMode": "NORMAL",
         "pieOptions": {
@@ -259,6 +310,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAABQCAYAAADSm7GJAAAAAXNSR0IArs4c6QAAA15JREFUeF7tnLtrVEEchc+5G4UYBBELtVDSCKL4AgubQFArH1iIYKP4+BNELbcVBDsrE9FCG0stBAvRQrDxDSKIpogI2onv3PnJakx2bjbJqrjLHs6Ws3OZe75vzt3Z5hL+SBOgdDqHgwWLbwILtmBxAuLx3GALFicgHs8NtmBxAuLx3GALFifQ6/HqUbSMUGdqjLvBPS541cnr50hsao4x2D+w83Z9eMKCe1xu4/YtWEDiXBEs2ILFCYjHc4MtWJyAeDw32ILFCYjHc4MtWJyAeDw32ILFCYjHc4MtWJyAeDw32ILFCYjHc4MtWJyAeDw32ILFCYjHc4MtWJyAeDw32ILFCYjHc4MtWJyAeDw32IJnJ7D61PVdAR5onlEgrrw+s/umOLeeifdPDW4IBnAiE1xwtCxjS/MYifGxM7vP9gwVoRv9L4JTiqMVRjcsuDu7xoK7w71jq1pwx1B3ZyEL7g73jq3aMcHf++N8u6ne1Pd8aneu581NoGOCAxwiYvHv24nAGBBvSG7LTtzBy4HY3zwWrF1FlHuzKAVuIWFH5bT+FgGCWJJfj7sFuC4bA+8DaW12feLLYKyYiYxfqmMReFcdq9WAlFKZr4O+SPj69xuxrx+Y+JzdZ8EFJLOxxvdRtliHsf2vX+Ew29+kVqfoPxLMOJRDqo0Q5bGKtKsMHKyAezIpeP28c1lcQKTjMzZXde2IewBXklg9tTnBD0TcAdD4mzj1KQqOVrMH4iLBI5XNdZOIrQCWTo0Hxkm8DGCoeW5KtUtFUR6ubJoRAhkPIK4FuI9A33SJ+ByILxY8SYSNp4cFT+8lN9gN/r0bbvgRPV2MAP2I9m/wLwLd/w0ODGcHjRofpTI2ZocfonG6XT7jJIr4RnBhdtABnwUiP/Gy9pBRZi/zigIvmLCmndNpy7lF8QApbZ537Rb3+POaFpmKFtmD8ZjBDfmhj+8Zsax67yQ+RmAgO2RF7WnBsnpofMjIX24GxisEB9vhMbho4LRfhNYOKYE5fpWhgMS5IliwBYsTEI/nBluwOAHxeG6wBYsTEI/nBluwOAHxeG6wBYsTEI/nBluwOAHxeG6wBYsTEI/nBluwOAHxeG6wBYsTEI/nBluwOAHxeG6wBYsTEI/nBluwOAHxeG6wuOAfhLLib9K3IbwAAAAASUVORK5CYII\u003d",
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT",
         "legendFormatting": {
