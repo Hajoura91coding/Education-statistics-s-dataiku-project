@@ -199,11 +199,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 11,
+    "versionNumber": 16,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1688411905236,
+    "lastModifiedOn": 1688474159831,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -214,7 +214,7 @@
     "lastModifiedOn": 1688410686016,
     "extendedProperties": {}
   },
-  "description": "Les données sont issues du site data catalog world bank. Ils décrivent par plusieurs indicateurs l\u0027éducation mondiale. Le but est de prendre la main sur Dataiku, apprendre à analyser, créer des chart de qualités , un dashboard.\n\nC\u0027est parti !",
+  "description": "  Les données sont issues du site data catalog world bank. Ils décrivent par plusieurs indicateurs statistiques l\u0027éducation dans le monde. \n  \nLe but est de prendre la main sur Dataiku, apprendre à analyser, créer des chart de qualités et un dashboard.\n\nC\u0027est parti !",
   "shortDesc": "The project *Education Statistics* was created by Agar BLOHORN on Jul 03rd 2023",
   "tags": [],
   "customFields": {},
@@ -239,14 +239,14 @@
             "stateChangedOn": 0
           },
           {
-            "done": false,
+            "done": true,
             "text": "Import your [first dataset](projects/EDUCATIONSTATISTICS/datasets/new/)",
             "createdOn": 1688410686019,
             "createdBy": "admin",
             "stateChangedOn": 0
           },
           {
-            "done": false,
+            "done": true,
             "text": "Organize your work by replacing this with a real todo",
             "createdOn": 1688410686019,
             "createdBy": "admin",
