@@ -59,7 +59,7 @@
             "cards": [
               {
                 "type": "categorical_histogram",
-                "maxValues": 10,
+                "maxValues": 69,
                 "groupOthers": false,
                 "column": {
                   "name": "Country Name",
@@ -121,7 +121,7 @@
             "cards": [
               {
                 "type": "categorical_histogram",
-                "maxValues": 10,
+                "maxValues": 64,
                 "groupOthers": false,
                 "column": {
                   "name": "Indicator Name",
@@ -182,11 +182,11 @@
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1688478402223,
+    "lastModifiedOn": 1688478503696,
     "extendedProperties": {}
   },
   "creationTag": {
