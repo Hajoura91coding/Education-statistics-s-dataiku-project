@@ -382,8 +382,10 @@
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
-    "scheme": "MEANING_AND_STATUS",
-    "individualColumns": [],
+    "scheme": "ALL_COLUMNS_VALUES",
+    "individualColumns": [
+      "Country Name"
+    ],
     "valueColoringMode": "HASH"
   }
 }
