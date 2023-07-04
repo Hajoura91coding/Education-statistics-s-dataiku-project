@@ -61,11 +61,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1688475565017,
+    "lastModifiedOn": 1688475603968,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -140,37 +140,8 @@
       {"name":"2013","type":"double"},
       {"name":"2014","type":"double"},
       {"name":"Long definition","type":"string"},
-      {"name":"Short Name","type":"string"},
-      {"name":"Table Name","type":"string"},
-      {"name":"Long Name","type":"string"},
-      {"name":"2-alpha code","type":"string"},
-      {"name":"Currency Unit","type":"string"},
-      {"name":"Special Notes","type":"string"},
       {"name":"Region","type":"string"},
-      {"name":"Income Group","type":"string"},
-      {"name":"WB-2 code","type":"string"},
-      {"name":"National accounts base year","type":"string"},
-      {"name":"National accounts reference year","type":"string"},
-      {"name":"SNA price valuation","type":"string"},
-      {"name":"Lending category","type":"string"},
-      {"name":"Other groups","type":"string"},
-      {"name":"System of National Accounts","type":"string"},
-      {"name":"Alternative conversion factor","type":"string"},
-      {"name":"PPP survey year","type":"string"},
-      {"name":"Balance of Payments Manual in use","type":"string"},
-      {"name":"External debt Reporting status","type":"string"},
-      {"name":"System of trade","type":"string"},
-      {"name":"Government Accounting concept","type":"string"},
-      {"name":"IMF data dissemination standard","type":"string"},
-      {"name":"Latest population census","type":"string"},
-      {"name":"Latest household survey","type":"string"},
-      {"name":"Source of most recent Income and expenditure data","type":"string"},
-      {"name":"Vital registration complete","type":"string"},
-      {"name":"Latest agricultural census","type":"string"},
-      {"name":"Latest industrial data","type":"string"},
-      {"name":"Latest trade data","type":"string"},
-      {"name":"Latest water withdrawal data","type":"string"},
-      {"name":"col_31","type":"string"}
+      {"name":"Income Group","type":"string"}
     ],
     "userModified": true
   },
