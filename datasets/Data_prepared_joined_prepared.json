@@ -1,0 +1,229 @@
+{
+  "type": "Filesystem",
+  "managed": true,
+  "featureGroup": false,
+  "formatType": "csv",
+  "checklists": {
+    "checklists": []
+  },
+  "checks": [],
+  "customMeta": {
+    "kv": {}
+  },
+  "flowOptions": {
+    "virtualizable": false,
+    "rebuildBehavior": "NORMAL",
+    "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "readWriteOptions": {
+    "preserveOrder": false,
+    "writeBuckets": 1,
+    "forceSingleOutputFile": false,
+    "defaultReadOrdering": {
+      "enabled": false,
+      "rules": []
+    }
+  },
+  "formatParams": {
+    "style": "unix",
+    "charset": "utf8",
+    "separator": "\t",
+    "quoteChar": "\"",
+    "escapeChar": "\\",
+    "maxRowChars": 100000000,
+    "dateSerializationFormat": "ISO",
+    "arrayMapFormat": "json",
+    "hiveSeparators": [
+      "\u0002",
+      "\u0003",
+      "\u0004",
+      "\u0005",
+      "\u0006",
+      "\u0007",
+      "\b"
+    ],
+    "skipRowsBeforeHeader": 0,
+    "parseHeaderRow": false,
+    "skipRowsAfterHeader": 0,
+    "probableNumberOfRecords": 0,
+    "normalizeBooleans": false,
+    "normalizeDoubles": true,
+    "readAdditionalColumnsBehavior": "INSERT_IN_DATA_WARNING",
+    "readMissingColumnsBehavior": "DISCARD_SILENT",
+    "readDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "writeDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "fileReadFailureBehavior": "FAIL",
+    "compress": "gz"
+  },
+  "partitioning": {
+    "ignoreNonMatchingFile": false,
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1688475683679,
+    "extendedProperties": {}
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1688475683679,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "params": {
+    "connection": "filesystem_managed",
+    "path": "${projectKey}/Data_prepared_joined_prepared",
+    "notReadyIfEmpty": false,
+    "filesSelectionRules": {
+      "mode": "ALL",
+      "excludeRules": [],
+      "includeRules": [],
+      "explicitFiles": []
+    }
+  },
+  "schema": {
+    "columns": [
+      {"name":"Country Name","type":"string"},
+      {"name":"Country Code","type":"string"},
+      {"name":"Indicator Name","type":"string"},
+      {"name":"Indicator Code","type":"string"},
+      {"name":"1970","type":"double"},
+      {"name":"1971","type":"double"},
+      {"name":"1972","type":"double"},
+      {"name":"1973","type":"double"},
+      {"name":"1974","type":"double"},
+      {"name":"1975","type":"double"},
+      {"name":"1976","type":"double"},
+      {"name":"1977","type":"double"},
+      {"name":"1978","type":"double"},
+      {"name":"1979","type":"double"},
+      {"name":"1980","type":"double"},
+      {"name":"1981","type":"double"},
+      {"name":"1982","type":"double"},
+      {"name":"1983","type":"double"},
+      {"name":"1984","type":"double"},
+      {"name":"1985","type":"double"},
+      {"name":"1986","type":"double"},
+      {"name":"1987","type":"double"},
+      {"name":"1988","type":"double"},
+      {"name":"1989","type":"double"},
+      {"name":"1990","type":"double"},
+      {"name":"1991","type":"double"},
+      {"name":"1992","type":"double"},
+      {"name":"1993","type":"double"},
+      {"name":"1994","type":"double"},
+      {"name":"1995","type":"double"},
+      {"name":"1996","type":"double"},
+      {"name":"1997","type":"double"},
+      {"name":"1998","type":"double"},
+      {"name":"1999","type":"double"},
+      {"name":"2000","type":"double"},
+      {"name":"2001","type":"double"},
+      {"name":"2002","type":"double"},
+      {"name":"2003","type":"double"},
+      {"name":"2004","type":"double"},
+      {"name":"2005","type":"double"},
+      {"name":"2006","type":"double"},
+      {"name":"2007","type":"double"},
+      {"name":"2008","type":"double"},
+      {"name":"2009","type":"double"},
+      {"name":"2010","type":"double"},
+      {"name":"2011","type":"double"},
+      {"name":"2012","type":"double"},
+      {"name":"2013","type":"double"},
+      {"name":"2014","type":"double"},
+      {"name":"Long definition","type":"string"}
+    ],
+    "userModified": true
+  },
+  "dkuProperties": [],
+  "metrics": {
+    "probes": [
+      {
+        "type": "basic",
+        "enabled": true,
+        "computeOnBuildMode": "PARTITION",
+        "meta": {
+          "name": "Basic data",
+          "level": 0
+        },
+        "configuration": {}
+      },
+      {
+        "type": "records",
+        "enabled": true,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Record count",
+          "level": 0
+        },
+        "configuration": {}
+      }
+    ],
+    "engineConfig": {
+      "padRunsWithMetrics": false,
+      "hive": {
+        "active": true,
+        "extraConf": []
+      },
+      "basic": {},
+      "dss": {
+        "active": true,
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "ascending": true,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        }
+      },
+      "sql": {
+        "active": true
+      },
+      "impala": {
+        "active": true
+      },
+      "spark": {
+        "active": true,
+        "extraConf": []
+      },
+      "python": {}
+    },
+    "displayedState": {
+      "columns": [],
+      "metrics": [
+        "basic:COUNT_COLUMNS",
+        "basic:COUNT_FILES",
+        "basic:SIZE",
+        "records:COUNT_RECORDS"
+      ]
+    }
+  },
+  "metricsChecks": {
+    "runOnBuild": false,
+    "checks": [],
+    "displayedState": {
+      "checks": []
+    }
+  },
+  "customFields": {}
+}
