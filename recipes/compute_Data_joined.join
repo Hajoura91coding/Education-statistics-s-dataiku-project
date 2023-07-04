@@ -6,412 +6,388 @@
       "conditionsMode": "AND",
       "type": "LEFT",
       "outerJoinOnTheLeft": true,
-      "on": []
+      "on": [
+        {
+          "column1": {
+            "name": "Country Code",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "windowFrom": 0,
+          "column2": {
+            "name": "Country Code",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false,
+          "windowTo": 0
+        }
+      ]
     }
   ],
   "selectedColumns": [
     {
       "name": "Country Name",
+      "type": "string",
       "table": 0
     },
     {
       "name": "Country Code",
+      "type": "string",
       "table": 0
     },
     {
       "name": "Indicator Name",
+      "type": "string",
       "table": 0
     },
     {
       "name": "Indicator Code",
+      "type": "string",
       "table": 0
     },
     {
       "name": "1970",
+      "type": "string",
       "table": 0
     },
     {
       "name": "1971",
+      "type": "string",
       "table": 0
     },
     {
       "name": "1972",
+      "type": "string",
       "table": 0
     },
     {
       "name": "1973",
+      "type": "string",
       "table": 0
     },
     {
       "name": "1974",
+      "type": "string",
       "table": 0
     },
     {
       "name": "1975",
+      "type": "string",
       "table": 0
     },
     {
       "name": "1976",
+      "type": "string",
       "table": 0
     },
     {
       "name": "1977",
+      "type": "string",
       "table": 0
     },
     {
       "name": "1978",
+      "type": "string",
       "table": 0
     },
     {
       "name": "1979",
+      "type": "string",
       "table": 0
     },
     {
       "name": "1980",
+      "type": "string",
       "table": 0
     },
     {
       "name": "1981",
+      "type": "string",
       "table": 0
     },
     {
       "name": "1982",
+      "type": "string",
       "table": 0
     },
     {
       "name": "1983",
+      "type": "string",
       "table": 0
     },
     {
       "name": "1984",
+      "type": "string",
       "table": 0
     },
     {
       "name": "1985",
+      "type": "string",
       "table": 0
     },
     {
       "name": "1986",
+      "type": "string",
       "table": 0
     },
     {
       "name": "1987",
+      "type": "string",
       "table": 0
     },
     {
       "name": "1988",
+      "type": "string",
       "table": 0
     },
     {
       "name": "1989",
+      "type": "string",
       "table": 0
     },
     {
       "name": "1990",
+      "type": "string",
       "table": 0
     },
     {
       "name": "1991",
+      "type": "string",
       "table": 0
     },
     {
       "name": "1992",
+      "type": "string",
       "table": 0
     },
     {
       "name": "1993",
+      "type": "string",
       "table": 0
     },
     {
       "name": "1994",
+      "type": "string",
       "table": 0
     },
     {
       "name": "1995",
+      "type": "string",
       "table": 0
     },
     {
       "name": "1996",
+      "type": "string",
       "table": 0
     },
     {
       "name": "1997",
+      "type": "string",
       "table": 0
     },
     {
       "name": "1998",
+      "type": "string",
       "table": 0
     },
     {
       "name": "1999",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2000",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2001",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2002",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2003",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2004",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2005",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2006",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2007",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2008",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2009",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2010",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2011",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2012",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2013",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2014",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2015",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2016",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2017",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2020",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2025",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2030",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2035",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2040",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2045",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2050",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2055",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2060",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2065",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2070",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2075",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2080",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2085",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2090",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2095",
+      "type": "string",
       "table": 0
     },
     {
       "name": "2100",
+      "type": "string",
       "table": 0
     },
     {
       "name": "col_69",
+      "type": "string",
       "table": 0
     },
     {
-      "name": "Short Name",
-      "table": 1
-    },
-    {
-      "name": "Table Name",
-      "table": 1
-    },
-    {
-      "name": "Long Name",
-      "table": 1
-    },
-    {
-      "name": "2-alpha code",
-      "table": 1
-    },
-    {
-      "name": "Currency Unit",
-      "table": 1
-    },
-    {
-      "name": "Special Notes",
-      "table": 1
-    },
-    {
       "name": "Region",
+      "type": "string",
       "table": 1
     },
     {
       "name": "Income Group",
-      "table": 1
-    },
-    {
-      "name": "WB-2 code",
-      "table": 1
-    },
-    {
-      "name": "National accounts base year",
-      "table": 1
-    },
-    {
-      "name": "National accounts reference year",
-      "table": 1
-    },
-    {
-      "name": "SNA price valuation",
-      "table": 1
-    },
-    {
-      "name": "Lending category",
-      "table": 1
-    },
-    {
-      "name": "Other groups",
-      "table": 1
-    },
-    {
-      "name": "System of National Accounts",
-      "table": 1
-    },
-    {
-      "name": "Alternative conversion factor",
-      "table": 1
-    },
-    {
-      "name": "PPP survey year",
-      "table": 1
-    },
-    {
-      "name": "Balance of Payments Manual in use",
-      "table": 1
-    },
-    {
-      "name": "External debt Reporting status",
-      "table": 1
-    },
-    {
-      "name": "System of trade",
-      "table": 1
-    },
-    {
-      "name": "Government Accounting concept",
-      "table": 1
-    },
-    {
-      "name": "IMF data dissemination standard",
-      "table": 1
-    },
-    {
-      "name": "Latest population census",
-      "table": 1
-    },
-    {
-      "name": "Latest household survey",
-      "table": 1
-    },
-    {
-      "name": "Source of most recent Income and expenditure data",
-      "table": 1
-    },
-    {
-      "name": "Vital registration complete",
-      "table": 1
-    },
-    {
-      "name": "Latest agricultural census",
-      "table": 1
-    },
-    {
-      "name": "Latest industrial data",
-      "table": 1
-    },
-    {
-      "name": "Latest trade data",
-      "table": 1
-    },
-    {
-      "name": "Latest water withdrawal data",
-      "table": 1
-    },
-    {
-      "name": "col_31",
+      "type": "string",
       "table": 1
     }
   ],
@@ -462,7 +438,7 @@
       "computedColumns": []
     },
     {
-      "outputColumnsSelectionMode": "AUTO_NON_CONFLICTING",
+      "outputColumnsSelectionMode": "MANUAL",
       "preFilter": {
         "distinct": false,
         "enabled": false
@@ -472,5 +448,303 @@
       "computedColumns": []
     }
   ],
+  "computedColumns": [],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "Country Name",
+            "type": "string"
+          },
+          {
+            "name": "Country Code",
+            "type": "string"
+          },
+          {
+            "name": "Indicator Name",
+            "type": "string"
+          },
+          {
+            "name": "Indicator Code",
+            "type": "string"
+          },
+          {
+            "name": "1970",
+            "type": "string"
+          },
+          {
+            "name": "1971",
+            "type": "string"
+          },
+          {
+            "name": "1972",
+            "type": "string"
+          },
+          {
+            "name": "1973",
+            "type": "string"
+          },
+          {
+            "name": "1974",
+            "type": "string"
+          },
+          {
+            "name": "1975",
+            "type": "string"
+          },
+          {
+            "name": "1976",
+            "type": "string"
+          },
+          {
+            "name": "1977",
+            "type": "string"
+          },
+          {
+            "name": "1978",
+            "type": "string"
+          },
+          {
+            "name": "1979",
+            "type": "string"
+          },
+          {
+            "name": "1980",
+            "type": "string"
+          },
+          {
+            "name": "1981",
+            "type": "string"
+          },
+          {
+            "name": "1982",
+            "type": "string"
+          },
+          {
+            "name": "1983",
+            "type": "string"
+          },
+          {
+            "name": "1984",
+            "type": "string"
+          },
+          {
+            "name": "1985",
+            "type": "string"
+          },
+          {
+            "name": "1986",
+            "type": "string"
+          },
+          {
+            "name": "1987",
+            "type": "string"
+          },
+          {
+            "name": "1988",
+            "type": "string"
+          },
+          {
+            "name": "1989",
+            "type": "string"
+          },
+          {
+            "name": "1990",
+            "type": "string"
+          },
+          {
+            "name": "1991",
+            "type": "string"
+          },
+          {
+            "name": "1992",
+            "type": "string"
+          },
+          {
+            "name": "1993",
+            "type": "string"
+          },
+          {
+            "name": "1994",
+            "type": "string"
+          },
+          {
+            "name": "1995",
+            "type": "string"
+          },
+          {
+            "name": "1996",
+            "type": "string"
+          },
+          {
+            "name": "1997",
+            "type": "string"
+          },
+          {
+            "name": "1998",
+            "type": "string"
+          },
+          {
+            "name": "1999",
+            "type": "string"
+          },
+          {
+            "name": "2000",
+            "type": "string"
+          },
+          {
+            "name": "2001",
+            "type": "string"
+          },
+          {
+            "name": "2002",
+            "type": "string"
+          },
+          {
+            "name": "2003",
+            "type": "string"
+          },
+          {
+            "name": "2004",
+            "type": "string"
+          },
+          {
+            "name": "2005",
+            "type": "string"
+          },
+          {
+            "name": "2006",
+            "type": "string"
+          },
+          {
+            "name": "2007",
+            "type": "string"
+          },
+          {
+            "name": "2008",
+            "type": "string"
+          },
+          {
+            "name": "2009",
+            "type": "string"
+          },
+          {
+            "name": "2010",
+            "type": "string"
+          },
+          {
+            "name": "2011",
+            "type": "string"
+          },
+          {
+            "name": "2012",
+            "type": "string"
+          },
+          {
+            "name": "2013",
+            "type": "string"
+          },
+          {
+            "name": "2014",
+            "type": "string"
+          },
+          {
+            "name": "2015",
+            "type": "string"
+          },
+          {
+            "name": "2016",
+            "type": "string"
+          },
+          {
+            "name": "2017",
+            "type": "string"
+          },
+          {
+            "name": "2020",
+            "type": "string"
+          },
+          {
+            "name": "2025",
+            "type": "string"
+          },
+          {
+            "name": "2030",
+            "type": "string"
+          },
+          {
+            "name": "2035",
+            "type": "string"
+          },
+          {
+            "name": "2040",
+            "type": "string"
+          },
+          {
+            "name": "2045",
+            "type": "string"
+          },
+          {
+            "name": "2050",
+            "type": "string"
+          },
+          {
+            "name": "2055",
+            "type": "string"
+          },
+          {
+            "name": "2060",
+            "type": "string"
+          },
+          {
+            "name": "2065",
+            "type": "string"
+          },
+          {
+            "name": "2070",
+            "type": "string"
+          },
+          {
+            "name": "2075",
+            "type": "string"
+          },
+          {
+            "name": "2080",
+            "type": "string"
+          },
+          {
+            "name": "2085",
+            "type": "string"
+          },
+          {
+            "name": "2090",
+            "type": "string"
+          },
+          {
+            "name": "2095",
+            "type": "string"
+          },
+          {
+            "name": "2100",
+            "type": "string"
+          },
+          {
+            "name": "col_69",
+            "type": "string"
+          },
+          {
+            "name": "Region",
+            "type": "string"
+          },
+          {
+            "name": "Income Group",
+            "type": "string"
+          }
+        ],
+        "userModified": false
+      }
+    }
+  },
   "enableAutoCastInJoinConditions": false
 }
