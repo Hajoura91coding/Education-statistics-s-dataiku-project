@@ -111,7 +111,10 @@
               "type": "AGGREGATION",
               "measureIdx": 0,
               "label": "Count of records, descending"
-            }
+            },
+            "prefix": "",
+            "suffix": "",
+            "multiplier": "Auto"
           }
         ],
         "genericDimension1": [],
@@ -127,6 +130,9 @@
             "displayType": "column",
             "computeMode": "NORMAL",
             "computeModeDim": 0,
+            "multiplier": "Auto",
+            "prefix": "",
+            "suffix": "",
             "showDisplayLabel": true,
             "labelPosition": "BOTTOM",
             "colorRules": []
