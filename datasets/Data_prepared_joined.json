@@ -61,11 +61,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1688487969938,
+    "lastModifiedOn": 1688487987301,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -139,26 +139,7 @@
       {"name":"2012","type":"double"},
       {"name":"2013","type":"double"},
       {"name":"2014","type":"double"},
-      {"name":"Series Code","type":"string"},
-      {"name":"Topic","type":"string"},
-      {"name":"Short definition","type":"string"},
-      {"name":"Long definition","type":"string"},
-      {"name":"Unit of measure","type":"string"},
-      {"name":"Periodicity","type":"string"},
-      {"name":"Base Period","type":"string"},
-      {"name":"Other notes","type":"string"},
-      {"name":"Aggregation method","type":"string"},
-      {"name":"Limitations and exceptions","type":"string"},
-      {"name":"Notes from original source","type":"string"},
-      {"name":"General comments","type":"string"},
-      {"name":"Source","type":"string"},
-      {"name":"Statistical concept and methodology","type":"string"},
-      {"name":"Development relevance","type":"string"},
-      {"name":"Related source links","type":"string"},
-      {"name":"Other web links","type":"string"},
-      {"name":"Related indicators","type":"string"},
-      {"name":"License Type","type":"string"},
-      {"name":"col_20","type":"string"}
+      {"name":"Long definition","type":"string"}
     ],
     "userModified": true
   },
