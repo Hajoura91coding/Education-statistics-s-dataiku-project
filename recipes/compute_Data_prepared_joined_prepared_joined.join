@@ -4,7 +4,16 @@
       "table2": 1,
       "table1": 0,
       "conditionsMode": "AND",
-      "type": "RIGHT",
+      "rightLimit": {
+        "decisionColumn": {
+          "name": "Country Code",
+          "table": 1
+        },
+        "maxMatches": 1,
+        "type": "KEEP_LARGEST",
+        "enabled": false
+      },
+      "type": "ADVANCED",
       "outerJoinOnTheLeft": true,
       "on": [
         {
@@ -25,6 +34,18 @@
           "type": "EQ",
           "strict": false,
           "windowTo": 0
+        },
+        {
+          "column1": {
+            "name": "Country Code",
+            "table": 0
+          },
+          "dateDiffUnit": "SECOND",
+          "column2": {
+            "name": "Country Code",
+            "table": 1
+          },
+          "type": "EQ"
         }
       ]
     }
@@ -328,7 +349,7 @@
   },
   "virtualInputs": [
     {
-      "outputColumnsSelectionMode": "AUTO_NON_CONFLICTING",
+      "outputColumnsSelectionMode": "MANUAL",
       "preFilter": {
         "distinct": false,
         "enabled": false
