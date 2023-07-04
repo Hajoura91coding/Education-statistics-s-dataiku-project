@@ -13,7 +13,7 @@
         "type": "KEEP_LARGEST",
         "enabled": false
       },
-      "type": "ADVANCED",
+      "type": "LEFT",
       "outerJoinOnTheLeft": true,
       "on": [
         {
@@ -34,18 +34,6 @@
           "type": "EQ",
           "strict": false,
           "windowTo": 0
-        },
-        {
-          "column1": {
-            "name": "Country Code",
-            "table": 0
-          },
-          "dateDiffUnit": "SECOND",
-          "column2": {
-            "name": "Country Code",
-            "table": 1
-          },
-          "type": "EQ"
         }
       ]
     }
