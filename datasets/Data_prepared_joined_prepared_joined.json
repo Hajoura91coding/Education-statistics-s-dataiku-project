@@ -61,11 +61,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1688476158372,
+    "lastModifiedOn": 1688476241233,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -139,7 +139,9 @@
       {"name":"2012","type":"double"},
       {"name":"2013","type":"double"},
       {"name":"2014","type":"double"},
-      {"name":"Long definition","type":"string"}
+      {"name":"Long definition","type":"string"},
+      {"name":"Region","type":"string"},
+      {"name":"Income Group","type":"string"}
     ],
     "userModified": true
   },
