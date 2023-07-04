@@ -61,11 +61,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1688488050097,
+    "lastModifiedOn": 1688488079227,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -93,6 +93,7 @@
       {"name":"Country Name","type":"string"},
       {"name":"Country Code","type":"string"},
       {"name":"Indicator Name","type":"string"},
+      {"name":"Long definition","type":"string"},
       {"name":"Indicator Code","type":"string"},
       {"name":"1970","type":"double"},
       {"name":"1971","type":"double"},
@@ -138,8 +139,7 @@
       {"name":"2011","type":"double"},
       {"name":"2012","type":"double"},
       {"name":"2013","type":"double"},
-      {"name":"2014","type":"double"},
-      {"name":"Long definition","type":"string"}
+      {"name":"2014","type":"double"}
     ],
     "userModified": true
   },
