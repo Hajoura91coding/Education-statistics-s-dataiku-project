@@ -72,18 +72,54 @@
       "copySelectionFromScript": true,
       "engineType": "LINO",
       "def": {
-        "type": "stacked_columns",
+        "type": "lines",
         "variant": "normal",
         "name": "New chart",
         "userEditedName": true,
         "displayWithEChartsByDefault": true,
-        "genericDimension0": [],
+        "genericDimension0": [
+          {
+            "column": "Country Name",
+            "type": "ALPHANUM",
+            "numParams": {
+              "emptyBinsMode": "ZEROS"
+            },
+            "maxValues": 20,
+            "generateOthersCategory": true,
+            "oneTickPerBin": false,
+            "filters": [],
+            "isA": "dimension",
+            "possibleSorts": [
+              {
+                "type": "NATURAL",
+                "label": "Natural ordering",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Average of 2014, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Average of 2014, ascending",
+                "sortAscending": true
+              }
+            ],
+            "sort": {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Average of 2014, descending"
+            }
+          }
+        ],
         "genericDimension1": [],
         "facetDimension": [],
         "animationDimension": [],
         "genericMeasures": [
           {
-            "column": "2002",
+            "column": "2014",
             "function": "AVG",
             "type": "NUMERICAL",
             "displayed": true,
@@ -93,20 +129,6 @@
             "computeMode": "NORMAL",
             "computeModeDim": 0,
             "multiplier": "Auto",
-            "showDisplayLabel": true,
-            "labelPosition": "BOTTOM",
-            "colorRules": []
-          },
-          {
-            "column": "2003",
-            "function": "AVG",
-            "type": "NUMERICAL",
-            "displayed": true,
-            "isA": "measure",
-            "displayAxis": "axis1",
-            "displayType": "column",
-            "computeMode": "NORMAL",
-            "computeModeDim": 0,
             "showDisplayLabel": true,
             "labelPosition": "BOTTOM",
             "colorRules": []
@@ -155,21 +177,7 @@
         "tooltipMeasures": [],
         "boxplotBreakdownDim": [],
         "boxplotValue": [],
-        "filters": [
-          {
-            "filterType": "ALPHANUM_FACET",
-            "filterSelectionType": "MULTI_SELECT",
-            "column": "Indicator Name",
-            "columnType": "ALPHANUM",
-            "isA": "filter",
-            "excludedValues": {},
-            "isAGlobalFilter": false,
-            "excludeOtherValues": false,
-            "allValuesInSample": false,
-            "active": true,
-            "explicitExclude": false
-          }
-        ],
+        "filters": [],
         "xAxisFormatting": {
           "displayAxis": true,
           "showAxisTitle": true,
@@ -303,6 +311,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
+        "thumbnailData": "data:image/png;base64,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\u003d",
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT",
         "legendFormatting": {
