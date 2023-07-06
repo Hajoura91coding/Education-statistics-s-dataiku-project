@@ -100,7 +100,211 @@
         "name": "Count distinct of Indicator Name by 2003 and Country Name",
         "userEditedName": true,
         "displayWithEChartsByDefault": true,
-        "genericDimension0": [],
+        "genericDimension0": [
+          {
+            "column": "Indicator Name",
+            "type": "ALPHANUM",
+            "numParams": {
+              "emptyBinsMode": "ZEROS"
+            },
+            "maxValues": 20,
+            "generateOthersCategory": true,
+            "oneTickPerBin": false,
+            "filters": [],
+            "isA": "dimension",
+            "possibleSorts": [
+              {
+                "type": "NATURAL",
+                "label": "Natural ordering",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Average of 2012, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Average of 2012, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 1,
+                "label": "Average of 2011, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 1,
+                "label": "Average of 2011, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 2,
+                "label": "Average of 2010, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 2,
+                "label": "Average of 2010, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 3,
+                "label": "Average of 2006, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 3,
+                "label": "Average of 2006, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 4,
+                "label": "Average of 2002, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 4,
+                "label": "Average of 2002, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 5,
+                "label": "Average of 2003, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 5,
+                "label": "Average of 2003, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 6,
+                "label": "Average of 2004, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 6,
+                "label": "Average of 2004, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 7,
+                "label": "Average of 2005, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 7,
+                "label": "Average of 2005, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 8,
+                "label": "Average of 2007, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 8,
+                "label": "Average of 2007, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 9,
+                "label": "Average of 2008, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 9,
+                "label": "Average of 2008, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 10,
+                "label": "Average of 2009, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 10,
+                "label": "Average of 2009, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 11,
+                "label": "Average of 2010, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 11,
+                "label": "Average of 2010, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 12,
+                "label": "Average of 2011, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 12,
+                "label": "Average of 2011, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 13,
+                "label": "Average of 2012, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 13,
+                "label": "Average of 2012, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 14,
+                "label": "Average of 2013, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 14,
+                "label": "Average of 2013, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 15,
+                "label": "Average of 2014, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 15,
+                "label": "Average of 2014, ascending",
+                "sortAscending": true
+              }
+            ],
+            "sort": {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Average of 2012, descending"
+            },
+            "prefix": "",
+            "suffix": "",
+            "multiplier": "Auto"
+          }
+        ],
         "genericDimension1": [
           {
             "column": "Country Name",
@@ -122,78 +326,177 @@
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Average of 2006, descending"
+                "label": "Average of 2012, descending"
               },
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
+                "label": "Average of 2012, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 1,
+                "label": "Average of 2011, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 1,
+                "label": "Average of 2011, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 2,
+                "label": "Average of 2010, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 2,
+                "label": "Average of 2010, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 3,
+                "label": "Average of 2006, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 3,
                 "label": "Average of 2006, ascending",
                 "sortAscending": true
               },
               {
                 "type": "AGGREGATION",
-                "measureIdx": 1,
+                "measureIdx": 4,
                 "label": "Average of 2002, descending"
               },
               {
                 "type": "AGGREGATION",
-                "measureIdx": 1,
+                "measureIdx": 4,
                 "label": "Average of 2002, ascending",
                 "sortAscending": true
               },
               {
                 "type": "AGGREGATION",
-                "measureIdx": 2,
+                "measureIdx": 5,
                 "label": "Average of 2003, descending"
               },
               {
                 "type": "AGGREGATION",
-                "measureIdx": 2,
+                "measureIdx": 5,
                 "label": "Average of 2003, ascending",
                 "sortAscending": true
               },
               {
                 "type": "AGGREGATION",
-                "measureIdx": 3,
+                "measureIdx": 6,
                 "label": "Average of 2004, descending"
               },
               {
                 "type": "AGGREGATION",
-                "measureIdx": 3,
+                "measureIdx": 6,
                 "label": "Average of 2004, ascending",
                 "sortAscending": true
               },
               {
                 "type": "AGGREGATION",
-                "measureIdx": 4,
+                "measureIdx": 7,
                 "label": "Average of 2005, descending"
               },
               {
                 "type": "AGGREGATION",
-                "measureIdx": 4,
+                "measureIdx": 7,
                 "label": "Average of 2005, ascending",
                 "sortAscending": true
               },
               {
                 "type": "AGGREGATION",
-                "measureIdx": 5,
+                "measureIdx": 8,
                 "label": "Average of 2007, descending"
               },
               {
                 "type": "AGGREGATION",
-                "measureIdx": 5,
+                "measureIdx": 8,
                 "label": "Average of 2007, ascending",
                 "sortAscending": true
               },
               {
                 "type": "AGGREGATION",
-                "measureIdx": 6,
+                "measureIdx": 9,
                 "label": "Average of 2008, descending"
               },
               {
                 "type": "AGGREGATION",
-                "measureIdx": 6,
+                "measureIdx": 9,
                 "label": "Average of 2008, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 10,
+                "label": "Average of 2009, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 10,
+                "label": "Average of 2009, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 11,
+                "label": "Average of 2010, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 11,
+                "label": "Average of 2010, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 12,
+                "label": "Average of 2011, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 12,
+                "label": "Average of 2011, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 13,
+                "label": "Average of 2012, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 13,
+                "label": "Average of 2012, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 14,
+                "label": "Average of 2013, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 14,
+                "label": "Average of 2013, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 15,
+                "label": "Average of 2014, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 15,
+                "label": "Average of 2014, ascending",
                 "sortAscending": true
               }
             ],
@@ -211,7 +514,7 @@
         "animationDimension": [],
         "genericMeasures": [
           {
-            "column": "2006",
+            "column": "2012",
             "function": "AVG",
             "type": "NUMERICAL",
             "displayed": true,
@@ -220,90 +523,9 @@
             "displayType": "column",
             "computeMode": "NORMAL",
             "computeModeDim": 0,
-            "showDisplayLabel": true,
-            "labelPosition": "BOTTOM",
-            "colorRules": []
-          },
-          {
-            "column": "2002",
-            "function": "AVG",
-            "type": "NUMERICAL",
-            "displayed": true,
-            "isA": "measure",
-            "displayAxis": "axis1",
-            "displayType": "column",
-            "computeMode": "NORMAL",
-            "computeModeDim": 0,
-            "showDisplayLabel": true,
-            "labelPosition": "BOTTOM",
-            "colorRules": []
-          },
-          {
-            "column": "2003",
-            "function": "AVG",
-            "type": "NUMERICAL",
-            "displayed": true,
-            "isA": "measure",
-            "displayAxis": "axis1",
-            "displayType": "column",
-            "computeMode": "NORMAL",
-            "computeModeDim": 0,
-            "showDisplayLabel": true,
-            "labelPosition": "BOTTOM",
-            "colorRules": []
-          },
-          {
-            "column": "2004",
-            "function": "AVG",
-            "type": "NUMERICAL",
-            "displayed": true,
-            "isA": "measure",
-            "displayAxis": "axis1",
-            "displayType": "column",
-            "computeMode": "NORMAL",
-            "computeModeDim": 0,
-            "showDisplayLabel": true,
-            "labelPosition": "BOTTOM",
-            "colorRules": []
-          },
-          {
-            "column": "2005",
-            "function": "AVG",
-            "type": "NUMERICAL",
-            "displayed": true,
-            "isA": "measure",
-            "displayAxis": "axis1",
-            "displayType": "column",
-            "computeMode": "NORMAL",
-            "computeModeDim": 0,
-            "showDisplayLabel": true,
-            "labelPosition": "BOTTOM",
-            "colorRules": []
-          },
-          {
-            "column": "2007",
-            "function": "AVG",
-            "type": "NUMERICAL",
-            "displayed": true,
-            "isA": "measure",
-            "displayAxis": "axis1",
-            "displayType": "column",
-            "computeMode": "NORMAL",
-            "computeModeDim": 0,
-            "showDisplayLabel": true,
-            "labelPosition": "BOTTOM",
-            "colorRules": []
-          },
-          {
-            "column": "2008",
-            "function": "AVG",
-            "type": "NUMERICAL",
-            "displayed": true,
-            "isA": "measure",
-            "displayAxis": "axis1",
-            "displayType": "column",
-            "computeMode": "NORMAL",
-            "computeModeDim": 0,
+            "multiplier": "Auto",
+            "prefix": "",
+            "suffix": "",
             "showDisplayLabel": true,
             "labelPosition": "BOTTOM",
             "colorRules": []
@@ -349,7 +571,263 @@
             "uaColor": []
           }
         ],
-        "tooltipMeasures": [],
+        "tooltipMeasures": [
+          {
+            "column": "2011",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0,
+            "multiplier": "Auto",
+            "prefix": "",
+            "suffix": "",
+            "showDisplayLabel": true,
+            "labelPosition": "BOTTOM",
+            "colorRules": []
+          },
+          {
+            "column": "2010",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0,
+            "multiplier": "Auto",
+            "prefix": "",
+            "suffix": "",
+            "showDisplayLabel": true,
+            "labelPosition": "BOTTOM",
+            "colorRules": []
+          },
+          {
+            "column": "2006",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0,
+            "multiplier": "Auto",
+            "prefix": "",
+            "suffix": "",
+            "showDisplayLabel": true,
+            "labelPosition": "BOTTOM",
+            "colorRules": []
+          },
+          {
+            "column": "2002",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0,
+            "multiplier": "Auto",
+            "prefix": "",
+            "suffix": "",
+            "showDisplayLabel": true,
+            "labelPosition": "BOTTOM",
+            "colorRules": []
+          },
+          {
+            "column": "2003",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0,
+            "multiplier": "Auto",
+            "prefix": "",
+            "suffix": "",
+            "showDisplayLabel": true,
+            "labelPosition": "BOTTOM",
+            "colorRules": []
+          },
+          {
+            "column": "2004",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0,
+            "multiplier": "Auto",
+            "prefix": "",
+            "suffix": "",
+            "showDisplayLabel": true,
+            "labelPosition": "BOTTOM",
+            "colorRules": []
+          },
+          {
+            "column": "2005",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0,
+            "multiplier": "Auto",
+            "prefix": "",
+            "suffix": "",
+            "showDisplayLabel": true,
+            "labelPosition": "BOTTOM",
+            "colorRules": []
+          },
+          {
+            "column": "2007",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0,
+            "multiplier": "Auto",
+            "prefix": "",
+            "suffix": "",
+            "showDisplayLabel": true,
+            "labelPosition": "BOTTOM",
+            "colorRules": []
+          },
+          {
+            "column": "2008",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0,
+            "multiplier": "Auto",
+            "prefix": "",
+            "suffix": "",
+            "showDisplayLabel": true,
+            "labelPosition": "BOTTOM",
+            "colorRules": []
+          },
+          {
+            "column": "2009",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0,
+            "multiplier": "Auto",
+            "prefix": "",
+            "suffix": "",
+            "showDisplayLabel": true,
+            "labelPosition": "BOTTOM",
+            "colorRules": []
+          },
+          {
+            "column": "2010",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0,
+            "multiplier": "Auto",
+            "prefix": "",
+            "suffix": "",
+            "showDisplayLabel": true,
+            "labelPosition": "BOTTOM",
+            "colorRules": []
+          },
+          {
+            "column": "2011",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0,
+            "multiplier": "Auto",
+            "prefix": "",
+            "suffix": "",
+            "showDisplayLabel": true,
+            "labelPosition": "BOTTOM",
+            "colorRules": []
+          },
+          {
+            "column": "2012",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0,
+            "multiplier": "Auto",
+            "prefix": "",
+            "suffix": "",
+            "showDisplayLabel": true,
+            "labelPosition": "BOTTOM",
+            "colorRules": []
+          },
+          {
+            "column": "2013",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0,
+            "multiplier": "Auto",
+            "prefix": "",
+            "suffix": "",
+            "showDisplayLabel": true,
+            "labelPosition": "BOTTOM",
+            "colorRules": []
+          },
+          {
+            "column": "2014",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0,
+            "multiplier": "Auto",
+            "prefix": "",
+            "suffix": "",
+            "showDisplayLabel": true,
+            "labelPosition": "BOTTOM",
+            "colorRules": []
+          }
+        ],
         "boxplotBreakdownDim": [],
         "boxplotValue": [],
         "filters": [
