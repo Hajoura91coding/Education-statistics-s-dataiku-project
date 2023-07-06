@@ -114,7 +114,10 @@
               "type": "NATURAL",
               "label": "Natural ordering",
               "sortAscending": true
-            }
+            },
+            "prefix": "",
+            "suffix": "",
+            "multiplier": "Auto"
           }
         ],
         "genericDimension1": [],
@@ -132,6 +135,8 @@
             "computeMode": "NORMAL",
             "computeModeDim": 0,
             "multiplier": "Auto",
+            "prefix": "",
+            "suffix": "",
             "showDisplayLabel": true,
             "labelPosition": "BOTTOM",
             "colorRules": []
@@ -188,6 +193,7 @@
             "columnType": "ALPHANUM",
             "isA": "filter",
             "excludedValues": {
+              "Enrolment in Grade 1 of primary education, both sexes (number)": true,
               "Enrolment in Grade 1 of primary education, female (number)": true,
               "Enrolment in Grade 2 of primary education, both sexes (number)": true,
               "Enrolment in Grade 2 of primary education, female (number)": true,
@@ -232,7 +238,6 @@
               "GNI per capita, Atlas method (current US$)": true,
               "GNI per capita, PPP (current international $)": true,
               "GNI, PPP (current international $)": true,
-              "Gross enrolment ratio, lower secondary, both sexes (%)": true,
               "Gross enrolment ratio, lower secondary, female (%)": true,
               "Gross enrolment ratio, lower secondary, gender parity index (GPI)": true,
               "Gross enrolment ratio, lower secondary, male (%)": true,
