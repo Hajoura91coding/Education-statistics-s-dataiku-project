@@ -95,12 +95,53 @@
         "_refreshTrigger": 0
       },
       "def": {
-        "type": "stacked_columns",
+        "type": "lines",
         "variant": "normal",
-        "name": "Count distinct of Indicator Name by Country Name",
+        "name": "Count distinct of Indicator Name by 2003 and Country Name",
         "userEditedName": false,
         "displayWithEChartsByDefault": true,
         "genericDimension0": [
+          {
+            "column": "2003",
+            "type": "NUMERICAL",
+            "numParams": {
+              "mode": "FIXED_NB",
+              "nbBins": 30,
+              "binSize": 100,
+              "emptyBinsMode": "ZEROS"
+            },
+            "maxValues": 100,
+            "generateOthersCategory": true,
+            "oneTickPerBin": false,
+            "filters": [],
+            "isA": "dimension",
+            "possibleSorts": [
+              {
+                "type": "NATURAL",
+                "label": "Natural ordering",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Count distinct of Indicator Name, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Count distinct of Indicator Name, ascending",
+                "sortAscending": true
+              }
+            ],
+            "sort": {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            },
+            "multiplier": "Auto"
+          }
+        ],
+        "genericDimension1": [
           {
             "column": "Country Name",
             "type": "ALPHANUM",
@@ -137,7 +178,6 @@
             }
           }
         ],
-        "genericDimension1": [],
         "facetDimension": [],
         "animationDimension": [],
         "genericMeasures": [
@@ -151,7 +191,6 @@
             "displayType": "column",
             "computeMode": "NORMAL",
             "computeModeDim": 0,
-            "multiplier": "Auto",
             "showDisplayLabel": true,
             "labelPosition": "BOTTOM",
             "colorRules": []
@@ -282,7 +321,6 @@
               "GNI per capita, Atlas method (current US$)": true,
               "GNI per capita, PPP (current international $)": true,
               "GNI, PPP (current international $)": true,
-              "Gross enrolment ratio, lower secondary, both sexes (%)": true,
               "Gross enrolment ratio, lower secondary, female (%)": true,
               "Gross enrolment ratio, lower secondary, gender parity index (GPI)": true,
               "Gross enrolment ratio, lower secondary, male (%)": true,
@@ -1461,7 +1499,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAABQCAYAAADSm7GJAAAAAXNSR0IArs4c6QAAAvtJREFUeF7tnMFqVDEUhpOrIyNdunBRbIsL30B8Be1UBPcKPoJY2ukLWL3udOnCnUsFHRXxJVyLFDvYpZsyFortRK4MEsPMPZlykEP6zTonc/L/J8nJyZ/rHb+iEfBFj47BOQguPAggGIILR6Dw4TGDIbhwBAofHjMYggtHoPDhiTP44vrHhYXO0WIuDjvbvS9x25X+h5XKj8+d1P7y1rsrubZNu/T//6f94bE/2KtXv8f+zvP/1cjvfn22enhS+3TsTT9ZBHfP/BrkgByCfz2se09TgkM4fpFj71x4vvv45su47aX+m6tVqOoc+xD8w2Hd+xS3Xd58f8O58UaOvR/7+9+e9D7HbZc23971zt/LsT8K1Z2U4OX+4IELbi3HvnNQXU8JXtoYPPLeXZPsQ3D7w3rtVtoOgiNEIFgII2YwM1gKEZboZA9miY5Chj2YPbh1BWEPlhZYsmiy6PYY4ZjEMaklQtiD2YPZg1MEmlIllSwqWX/igkIHhQ4pD6fQQaFjdoyQZJFkkWSRZHFdOHMWkGSRZJFktSDAhb8UHig6UHS0xQi3SfIMQpOViO7QZP0TNNwmcZvEbdJUBFBVSrrTRkOMbFa4rkfRgaIDRcdsBDgHy1k8LxsSjHjZwMsGFB28TZrMAi4buGyQdlEUHSg6UHRMQ4BCB4WO6Qggm+UB+N/IIMkiySLJQtHBNzriGOABeIQGumh00eii0UWji0YXPQMBvpMlFhvQZKHJQpOFJitGgE8ZCssmpUpKlZQqJwiQZJFktSKA6E6qZPP4jMdnbTFyaoXvZzs/u+LqOmmwt337R9x2cevVhVzbpt1ptj8/6o7Sc/A8+KXYNXiKstl5yKGtPQQg2B4nqh5BsCqc9jqDYHucqHoEwapw2usMgu1xouoRBKvCaa8zCLbHiapHEKwKp73OINgeJ6oeQbAqnPY6g2B7nKh6BMGqcNrrDILtcaLqEQSrwmmvMwi2x4mqRxCsCqe9ziDYHieqHkGwKpz2OoNge5yoevQbO2Fn52/CRmEAAAAASUVORK5CYII\u003d",
+        "thumbnailData": "data:image/png;base64,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\u003d",
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT",
         "legendFormatting": {
