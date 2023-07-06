@@ -1534,57 +1534,47 @@
       "copySelectionFromScript": true,
       "engineType": "LINO",
       "def": {
-        "type": "lines",
+        "type": "pivot_table",
         "variant": "normal",
-        "name": "Count by 1973",
+        "name": "Avg of 1988 by Indicator Name and Country Name",
         "userEditedName": false,
         "displayWithEChartsByDefault": true,
-        "genericDimension0": [
-          {
-            "column": "1973",
-            "type": "NUMERICAL",
-            "numParams": {
-              "mode": "FIXED_NB",
-              "nbBins": 30,
-              "binSize": 100,
-              "emptyBinsMode": "ZEROS"
-            },
-            "maxValues": 100,
-            "generateOthersCategory": true,
-            "oneTickPerBin": false,
-            "filters": [],
-            "isA": "dimension",
-            "possibleSorts": [
-              {
-                "type": "NATURAL",
-                "label": "Natural ordering",
-                "sortAscending": true
-              },
-              {
-                "type": "AGGREGATION",
-                "measureIdx": 0,
-                "label": "Count of records, descending"
-              },
-              {
-                "type": "AGGREGATION",
-                "measureIdx": 0,
-                "label": "Count of records, ascending",
-                "sortAscending": true
-              }
-            ],
-            "sort": {
-              "type": "NATURAL",
-              "label": "Natural ordering",
-              "sortAscending": true
-            }
-          }
-        ],
+        "genericDimension0": [],
         "genericDimension1": [],
         "facetDimension": [],
         "animationDimension": [],
         "genericMeasures": [
           {
-            "function": "COUNT",
+            "column": "1988",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0,
+            "showDisplayLabel": true,
+            "labelPosition": "BOTTOM",
+            "colorRules": []
+          },
+          {
+            "column": "1993",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0,
+            "showDisplayLabel": true,
+            "labelPosition": "BOTTOM",
+            "colorRules": []
+          },
+          {
+            "column": "2007",
+            "function": "AVG",
             "type": "NUMERICAL",
             "displayed": true,
             "isA": "measure",
@@ -1598,8 +1588,124 @@
             "colorRules": []
           }
         ],
-        "xDimension": [],
-        "yDimension": [],
+        "xDimension": [
+          {
+            "column": "Indicator Name",
+            "type": "ALPHANUM",
+            "numParams": {
+              "emptyBinsMode": "ZEROS"
+            },
+            "maxValues": 20,
+            "generateOthersCategory": true,
+            "oneTickPerBin": false,
+            "filters": [],
+            "isA": "dimension",
+            "possibleSorts": [
+              {
+                "type": "NATURAL",
+                "label": "Natural ordering",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Average of 1988, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Average of 1988, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 1,
+                "label": "Average of 1993, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 1,
+                "label": "Average of 1993, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 2,
+                "label": "Average of 2007, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 2,
+                "label": "Average of 2007, ascending",
+                "sortAscending": true
+              }
+            ],
+            "sort": {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            }
+          }
+        ],
+        "yDimension": [
+          {
+            "column": "Country Name",
+            "type": "ALPHANUM",
+            "numParams": {
+              "emptyBinsMode": "ZEROS"
+            },
+            "maxValues": 20,
+            "generateOthersCategory": true,
+            "oneTickPerBin": false,
+            "filters": [],
+            "isA": "dimension",
+            "possibleSorts": [
+              {
+                "type": "NATURAL",
+                "label": "Natural ordering",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Average of 1988, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Average of 1988, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 1,
+                "label": "Average of 1993, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 1,
+                "label": "Average of 1993, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 2,
+                "label": "Average of 2007, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 2,
+                "label": "Average of 2007, ascending",
+                "sortAscending": true
+              }
+            ],
+            "sort": {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            }
+          }
+        ],
         "uaXDimension": [],
         "uaYDimension": [],
         "uaSize": [],
@@ -1775,7 +1881,6 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,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",
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT",
         "legendFormatting": {
