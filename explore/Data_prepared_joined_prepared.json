@@ -1592,6 +1592,7 @@
             "displayType": "column",
             "computeMode": "NORMAL",
             "computeModeDim": 0,
+            "multiplier": "Auto",
             "showDisplayLabel": true,
             "labelPosition": "BOTTOM",
             "colorRules": []
