@@ -68,6 +68,18 @@
         "appliesTo": "SINGLE_COLUMN"
       },
       "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "GeoPointCreator",
+      "params": {
+        "out_column": "GeoPoint",
+        "lat_column": "Latitude (average)",
+        "lon_column": "Longitude (average)"
+      },
+      "alwaysShowComment": false
     }
   ],
   "maxProcessedMemTableBytes": -1,
@@ -101,6 +113,7 @@
     "GPS": 100,
     "1976": 134,
     "1975": 134,
+    "GeoPoint": 100,
     "1974": 134,
     "1973": 134,
     "gps-region": 100,
