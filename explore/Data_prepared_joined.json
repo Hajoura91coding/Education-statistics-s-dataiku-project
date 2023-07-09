@@ -568,7 +568,6 @@
               "Enrolment in lower secondary general, both sexes (number)": true,
               "Enrolment in lower secondary general, female (number)": true,
               "Gross enrolment ratio, primary, both sexes (%)": true,
-              "Gross enrolment ratio, primary, female (%)": true,
               "Gross enrolment ratio, primary, gender parity index (GPI)": true,
               "Gross enrolment ratio, primary, male (%)": true,
               "Gross outbound enrolment ratio, all regions, both sexes (%)": true,
@@ -2571,7 +2570,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAABQCAYAAADSm7GJAAAAAXNSR0IArs4c6QAAAsFJREFUeF7t3D1rFFEYxfE7M4JKCju3ERNfQLD1Q6irrX4Fq3SySLAQCyMSsLAypeVaGgVBsNFGCTZWIil8A7GwEgm6jmyro9yHcPTcy9/62cO55+e0aRL/ql6gqfp1PC4BXPl/AoABrnyByp/HFwxw5QtU/jy+YIArX6Dy5/EFA1z5ApU/L/sLXpxsrKWmX8rdo2+7m29Wx09z77nTLBAETidya/Rtexng3LV0dwDrtrVIBtiCQVcCYN22FskAWzDoSgCs29YiGWALBl0JgHXbWiQDbMGgKwGwbluLZIAtGHQlANZta5EMsAWDrgTAum0tkgG2YNCVAFi3rUUywBYMuhIA67a1SAbYgkFXAmDdthbJAFsw6EoArNvWIhlgCwZdCYB121okA2zBoCsBsG5bi2SALRh0JQDWbWuRDLAFg64EwLptLZIBtmDQlQBYt61FMsAWDLoSAOu2tUgG2IJBVwJg3bYWyQBbMOhKAKzb1iIZYAsGXQmAddtaJANswaArAbBuW4tkgC0YdCUA1m1rkVw08OJk42pkxe+pXX9/Y/wu8pvSb0PAfer3Zz+4624P/THSQyuPRmm2fSw3p2nar1vXTz8fuj84uXcnN2d+N0vdyiDwlce7jqdPbW7W3g+f+831C99+u59Ou8MvFo7k5szvtlbPvBq6P3Dp/qkm/cj+676pbZ68vXb25a9Z2cCR0n+7HV18uBDN+rh28kv0N6H7c9MudD8/vnt+NgQ8erZvTyTrT287uvxgdyRnfvv61nj7vwNHS3O/swX++Re8s7r8OroAwNHFCrsHuDCwaF2Ao4sVdg9wYWDRugBHFyvsHuDCwKJ1AY4uVtg9wIWBResCHF2ssHuACwOL1gU4ulhh9wAXBhatC3B0scLuAS4MLFoX4Ohihd0DXBhYtC7A0cUKuwe4MLBoXYCjixV2/xNhblJgIj4hRgAAAABJRU5ErkJggg\u003d\u003d",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAABQCAYAAADSm7GJAAAAAXNSR0IArs4c6QAAAwdJREFUeF7tnLGKU0EUhs+ZKChYaGG3m7S+xD6Au2lstBNLQUFFklWwsljc3cLCwsZCsBELLTYBX8BC7Bas3QRLS0EbM5INKIm5d/+sIjnDl/pkcu7/3XP/OXcm48anaAW86Kvj4gzAhd8EAAZw4QoUfnlUMIALV6Dwy6OCAVy4AoVfHhUM4MIVKPzyqOAlBdzs9p+6j86r6fkoPTvY3Xg7Gy8BXu3sXUnJ1tQfy9m/Dnfa99T448S1Onvr5n5qke8Odtqv58U3u73bi4xjOX0Y7q6/m/3Oyp1Xpxcax8w+P778bX5OY8D5gjqej3z7LwH7dfXHcrb3/wVw8o6ak5l/HGxv3JwX39rsvTCzFXWsPEoP5gFevd9bSyN7KI/jNhg+al8rCnBrs/8mWz6jitBoNO5+2rq4Pxt/WMEA/iXL0lTwGLBZPqsCTo3GLQAfrRaAeURX3yWTSda/8WAq+LfOuVQP5hE9gQxgM8ODj/bfcQQejAfjwVqtmNEH17zoYJLFJGuqkPBg7bmCB+PBeLBWK3iw1S024MF4MB5sZpP14IDLhVQwFUwFU8FmrAdPTwlpk2iTaJNok0QFaJM0oVguZLkw3q5K2iTaJNok2iTapFmXp02iTaJN0ua+rCaxmiTeKbRJtEm0SWKxjDeW8uezKrH4Z8O0MuyqZFel9GDBg/FgPFgqlcMgPLhSKzwYD55SgOVC7bmCB+PBeLBWK3hwrU54MB6MB5sZxyiZGTs62NHBjg52dLCjgx0df0wbeZNV+ybLPV3SW5J8UHVWZbPbf6mPY9Y4kbaqTrrLnq6qY7nbl7qzKnP2k+pYlv1J1VmV/sNvyOOk/L3urEozO6eOlbI9P/ZhpOqPELd8CkjHCS9f2mSkKgBgVamgcQAOCk5NG8CqUkHjABwUnJo2gFWlgsYBOCg4NW0Aq0oFjQNwUHBq2gBWlQoaB+Cg4NS0AawqFTQOwEHBqWkDWFUqaByAg4JT0wawqlTQOAAHBaemDWBVqaBxAA4KTk0bwKpSQeMAHBScmvZP8/74qwCF48IAAAAASUVORK5CYII\u003d",
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT",
         "legendFormatting": {
