@@ -61,11 +61,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1688488079227,
+    "lastModifiedOn": 1688912892902,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -139,7 +139,8 @@
       {"name":"2011","type":"double"},
       {"name":"2012","type":"double"},
       {"name":"2013","type":"double"},
-      {"name":"2014","type":"double"}
+      {"name":"2014","type":"double"},
+      {"name":"GPS","type":"string"}
     ],
     "userModified": true
   },
