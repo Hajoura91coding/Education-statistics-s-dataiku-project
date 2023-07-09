@@ -32,6 +32,14 @@
         ]
       },
       "showTitle": false
+    },
+    {
+      "id": "Grll81f",
+      "grid": {
+        "tiles": []
+      },
+      "title": "Slide 2",
+      "showTitle": false
     }
   ],
   "owner": "admin",
@@ -39,11 +47,11 @@
   "name": "Education Statistics\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1688914406478,
+    "lastModifiedOn": 1688919133860,
     "extendedProperties": {}
   },
   "creationTag": {
