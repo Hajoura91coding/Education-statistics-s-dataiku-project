@@ -74,8 +74,8 @@
       "def": {
         "type": "multi_columns_lines",
         "variant": "normal",
-        "name": "Count by 1970",
-        "userEditedName": false,
+        "name": "Count GDP at market place in 1970",
+        "userEditedName": true,
         "displayWithEChartsByDefault": true,
         "genericDimension0": [
           {
