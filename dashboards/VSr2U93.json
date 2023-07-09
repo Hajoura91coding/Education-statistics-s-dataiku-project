@@ -9,8 +9,8 @@
             "box": {
               "top": 0,
               "left": 0,
-              "width": 2,
-              "height": 2
+              "width": 6,
+              "height": 3
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
@@ -39,11 +39,11 @@
   "name": "Education Statistics\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1688914397380,
+    "lastModifiedOn": 1688914406478,
     "extendedProperties": {}
   },
   "creationTag": {
