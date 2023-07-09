@@ -24,67 +24,17 @@
             },
             "autoLoad": true,
             "showTitle": "YES",
-            "insightId": "fxtTxEm",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": -1,
-              "left": -1,
-              "width": 2,
-              "height": 2
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "autoLoad": true,
-            "showTitle": "YES",
             "insightId": "2YdVnHZ",
             "insightType": "chart",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": -1,
-              "left": -1,
-              "width": 2,
-              "height": 2
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "autoLoad": true,
-            "showTitle": "YES",
-            "insightId": "NlTzt2v",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
           }
         ]
       },
       "showTitle": false
     },
     {
-      "id": "Grll81f",
+      "id": "d0oAoqw",
       "grid": {
         "tiles": [
           {
@@ -92,8 +42,8 @@
             "box": {
               "top": 0,
               "left": 0,
-              "width": 2,
-              "height": 2
+              "width": 6,
+              "height": 4
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
@@ -107,73 +57,13 @@
             },
             "autoLoad": true,
             "showTitle": "YES",
-            "insightId": "E19oj1V",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 0,
-              "left": 2,
-              "width": 2,
-              "height": 2
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "autoLoad": true,
-            "showTitle": "YES",
-            "insightId": "4Cdxeho",
+            "insightId": "Z6Ffw3F",
             "insightType": "chart",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
           }
         ]
       },
-      "title": "Slide 2",
-      "showTitle": false
-    },
-    {
-      "id": "34HLDxO",
-      "grid": {
-        "tiles": [
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 0,
-              "left": 0,
-              "width": 2,
-              "height": 2
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "autoLoad": true,
-            "showTitle": "YES",
-            "insightId": "OCAFpYP",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          }
-        ]
-      },
-      "title": "Slide 3",
       "showTitle": false
     }
   ],
@@ -182,11 +72,11 @@
   "name": "Education Statistics\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 12,
+    "versionNumber": 13,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1688922127271,
+    "lastModifiedOn": 1688922258540,
     "extendedProperties": {}
   },
   "creationTag": {
