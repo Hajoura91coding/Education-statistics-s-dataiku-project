@@ -72,7 +72,7 @@
       "copySelectionFromScript": true,
       "engineType": "LINO",
       "def": {
-        "type": "lines",
+        "type": "stacked_bars",
         "variant": "normal",
         "name": "Count GDP at market place in 1970",
         "userEditedName": true,
@@ -98,19 +98,19 @@
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "1970, descending"
+                "label": "Average of 2011, descending"
               },
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "1970, ascending",
+                "label": "Average of 2011, ascending",
                 "sortAscending": true
               }
             ],
             "sort": {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "1970, descending"
+              "label": "Average of 2011, descending"
             }
           }
         ],
@@ -119,7 +119,7 @@
         "animationDimension": [],
         "genericMeasures": [
           {
-            "column": "1970",
+            "column": "2011",
             "function": "AVG",
             "type": "NUMERICAL",
             "displayed": true,
@@ -129,7 +129,6 @@
             "computeMode": "NORMAL",
             "computeModeDim": 0,
             "multiplier": "Auto",
-            "displayLabel": "1970",
             "showDisplayLabel": true,
             "labelPosition": "BOTTOM",
             "colorRules": []
@@ -269,7 +268,6 @@
               "Gross enrolment ratio, pre-primary, female (%)": true,
               "Gross enrolment ratio, pre-primary, gender parity index (GPI)": true,
               "Gross enrolment ratio, pre-primary, male (%)": true,
-              "Gross enrolment ratio, primary and lower secondary, both sexes (%)": true,
               "Gross enrolment ratio, primary and lower secondary, female (%)": true,
               "Gross enrolment ratio, primary and lower secondary, gender parity index (GPI)": true,
               "Gross enrolment ratio, primary and lower secondary, male (%)": true,
@@ -292,6 +290,7 @@
               "Gross enrolment ratio, tertiary, both sexes (%)": true,
               "Gross enrolment ratio, tertiary, female (%)": true,
               "Gross enrolment ratio, tertiary, gender parity index (GPI)": true,
+              "Gross enrolment ratio, tertiary, male (%)": true,
               "Gross enrolment ratio, upper secondary, both sexes (%)": true,
               "Gross enrolment ratio, upper secondary, female (%)": true,
               "Gross enrolment ratio, upper secondary, gender parity index (GPI)": true,
@@ -320,7 +319,6 @@
               "Net enrolment rate, secondary, female (%)": true,
               "Net enrolment rate, secondary, gender parity index (GPI)": true,
               "Net enrolment rate, secondary, male (%)": true,
-              "Net intake rate to Grade 1 of primary education, both sexes (%)": true,
               "New entrants to Grade 1 of primary education, both sexes (number)": true,
               "New entrants to Grade 1 of primary education, female (number)": true,
               "New entrants to Grade 1 of primary education, percentage female (%)": true,
@@ -513,9 +511,7 @@
               "Adult literacy rate, population 15+ years, female (%)": true,
               "Adult literacy rate, population 15+ years, gender parity index (GPI)": true,
               "Adult literacy rate, population 15+ years, male (%)": true,
-              "Net intake rate to Grade 1 of primary education, female (%)": true,
-              "Net intake rate to Grade 1 of primary education, gender parity index (GPI)": true,
-              "Net intake rate to Grade 1 of primary education, male (%)": true,
+              "Net intake rate to Grade 1 of primary education, both sexes (%)": true,
               "Youth illiterate population, 15-24 years, % female": true,
               "Youth illiterate population, 15-24 years, female (number)": true,
               "Youth literacy rate, population 15-24 years, both sexes (%)": true,
@@ -523,10 +519,19 @@
               "Youth literacy rate, population 15-24 years, gender parity index (GPI)": true,
               "Youth literacy rate, population 15-24 years, male (%)": true,
               "Prevalence of HIV, total (% of population ages 15-49)": true,
+              "Net intake rate to Grade 1 of primary education, female (%)": true,
+              "Net intake rate to Grade 1 of primary education, gender parity index (GPI)": true,
+              "Net intake rate to Grade 1 of primary education, male (%)": true,
               "Adult illiterate population, 15+ years, both sexes (number)": true,
               "Adult illiterate population, 15+ years, male (number)": true,
               "Youth illiterate population, 15-24 years, both sexes (number)": true,
               "Youth illiterate population, 15-24 years, male (number)": true,
+              "Elderly illiterate population, 65+ years, both sexes (number)": true,
+              "Elderly illiterate population, 65+ years, female (number)": true,
+              "Elderly illiterate population, 65+ years, male (number)": true,
+              "Elderly literacy rate, population 65+ years, both sexes (%)": true,
+              "Elderly literacy rate, population 65+ years, female (%)": true,
+              "Elderly literacy rate, population 65+ years, male (%)": true,
               "Enrolment in post-secondary non-tertiary education, private institutions, both sexes (number)": true,
               "Labor force with advanced education (% of total)": true,
               "Labor force with basic education (% of total)": true,
@@ -553,12 +558,6 @@
               "Percentage of teachers in primary education who are trained, both sexes (%)": true,
               "Percentage of teachers in secondary education who are trained, both sexes (%)": true,
               "Percentage of teachers in upper secondary education who are trained, both sexes (%)": true,
-              "Elderly illiterate population, 65+ years, female (number)": false,
-              "Elderly literacy rate, population 65+ years, both sexes (%)": false,
-              "Elderly literacy rate, population 65+ years, female (%)": false,
-              "Elderly illiterate population, 65+ years, both sexes (number)": false,
-              "Elderly illiterate population, 65+ years, male (number)": false,
-              "Elderly literacy rate, population 65+ years, male (%)": false,
               "Labor force with advanced education, female (% of female labor force)": false,
               "Labor force with advanced education, male (% of male labor force)": false,
               "Labor force with basic education, female (% of female labor force)": false,
@@ -1288,8 +1287,6 @@
               "Latin America \u0026 Caribbean": true,
               "Latin America \u0026 Caribbean (excluding high income)": true,
               "Least developed countries: UN classification": true,
-              "Low \u0026 middle income": true,
-              "Lower middle income": true,
               "Middle East \u0026 North Africa": true,
               "Middle East \u0026 North Africa (excluding high income)": true,
               "North America": true,
@@ -1297,7 +1294,6 @@
               "South Asia": true,
               "Sub-Saharan Africa": true,
               "Sub-Saharan Africa (excluding high income)": true,
-              "Upper middle income": true,
               "World": true,
               "Afghanistan": true,
               "Albania": true
@@ -1443,7 +1439,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,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",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAABQCAYAAADSm7GJAAAAAXNSR0IArs4c6QAAAuNJREFUeF7tnLFOFFEUhudQWfkEBIFXMKEltuxioi9CYxBCszEhGSx8AlufQLQysbHS2JiQkJgIuxBaLG3mXrLamp3L/HPPnHv2p+XOOf/5vr2ZOwu7UvHHNQFxPR2HqyjY+YuAginYOQHn43EHU7BzAs7H4w6mYOcEnI/HHUzBzgk4H487mIIXE9g4+vDIOaMix7s4Hk3nweEdvH74cTuGMCmSgtPQIvLjsh7tUTAFtxPgDm5npL2CO1ibuHI/ClYGrt2uV8Gr+++3tAdgv3YC1693v/ZyyGpvxRVDEoAfk4YMz97tBGDBf0/RTXzR3oorchEIK82rq/rpt//V70cw3+jI5S6pbpCwT8FJqMpcRMFlektOTcHJqMpcmF1wFeNGmWh8pG6q5izbPdgHIr9TwKdov2h8TAYLnj8HhxB3fOAoZwqR6ue0Hr1tS9yLYP7Bvw1zht+LvKPgDFzNlKRgMyryBKHgPFzNVFUV3IRdM4MvS5AVOVe5By8Lz1LnhE/RpQ6+LLlhwf+egxv+87vWK0bkZlaPP6W260Uwn4NTceProlTHFIxzNFuBgs2q6ScYBffD0WyVgQTHl2aJOAsWJb5RvQc74+duHPgU7Y6Is4FgwWsHp4+dMTE5zqwef+8SDBbMj492wX7fa+T39GT07L5XzddTcBdq6tdQsDpy3YYUrMtbvRsFqyPXbTig4LWD003dYZez26we/+oyOXzI6tKU1+gRgAWvTz4/0Ivrs9Pl5MmfXJPhgvlFaJCbKNXzWT2+hYosuJiCc5FNrEvBiaBKXUbBpZpLzE3BiaBKXVaE4BCah6UCHjy3yBfTh6zBATHAQgLwKZp8bROgYNt+4HQUDCO0XYCCbfuB01EwjNB2AQq27QdOR8EwQtsFKNi2HzgdBcMIbRegYNt+4HQUDCO0XYCCbfuB01EwjNB2AQq27QdOR8EwQtsFKNi2HzgdBcMIbRegYNt+4HQUDCO0XeAOsVA6YDb1sJEAAAAASUVORK5CYII\u003d",
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT",
         "legendFormatting": {
