@@ -114,7 +114,10 @@
               "type": "NATURAL",
               "label": "Natural ordering",
               "sortAscending": true
-            }
+            },
+            "prefix": "",
+            "suffix": "",
+            "multiplier": "Auto"
           }
         ],
         "genericDimension1": [],
