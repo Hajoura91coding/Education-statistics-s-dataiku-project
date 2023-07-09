@@ -18,7 +18,7 @@
       "timeout": -1,
       "filter": {
         "distinct": false,
-        "enabled": false
+        "enabled": true
       },
       "partitionSelectionMethod": "ALL",
       "targetRatio": 0.02,
@@ -45,6 +45,26 @@
           "Long definition"
         ],
         "reorderAction": "BEFORE_COLUMN",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FilterOnValue",
+      "params": {
+        "normalizationMode": "EXACT",
+        "booleanMode": "AND",
+        "columns": [
+          "Country Name"
+        ],
+        "values": [
+          "Arab World"
+        ],
+        "matchingMode": "FULL_STRING",
+        "action": "REMOVE_ROW",
         "appliesTo": "SINGLE_COLUMN"
       },
       "alwaysShowComment": false
@@ -88,9 +108,12 @@
     "cccountry": 100,
     "1971": 134,
     "1970": 134,
+    "Alpha-2 code": 105,
     "1979": 134,
     "1978": 134,
     "1977": 134,
+    "Latitude (average)": 150,
+    "Longitude (average)": 158,
     "gps-country_code": 135,
     "1990": 134,
     "2001": 148,
@@ -107,8 +130,10 @@
     "1981": 134,
     "1980": 134,
     "gps-region_code": 128,
+    "Country": 100,
     "1989": 134,
     "1988": 134,
+    "Numeric code": 105,
     "gps-region_hierarchy": 165,
     "Indicator Code": 211,
     "2012": 148,
@@ -135,6 +160,7 @@
     "1999": 148,
     "cccountry_code": 120,
     "gps-geopoint": 105,
+    "Alpha-3 code": 105,
     "Indicator Name": 300,
     "Long definition": 300,
     "gps-timezone": 105,
