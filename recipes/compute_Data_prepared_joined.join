@@ -27,6 +27,28 @@
           "windowTo": 0
         }
       ]
+    },
+    {
+      "table2": 2,
+      "table1": 0,
+      "conditionsMode": "AND",
+      "rightLimit": {},
+      "type": "LEFT",
+      "outerJoinOnTheLeft": true,
+      "on": [
+        {
+          "column1": {
+            "name": "Country Code",
+            "table": 0
+          },
+          "dateDiffUnit": "SECOND",
+          "column2": {
+            "name": "Alpha-3 code",
+            "table": 2
+          },
+          "type": "EQ"
+        }
+      ]
     }
   ],
   "selectedColumns": [
@@ -279,6 +301,36 @@
       "name": "Long definition",
       "type": "string",
       "table": 1
+    },
+    {
+      "name": "Country",
+      "type": "string",
+      "table": 2
+    },
+    {
+      "name": "Alpha-2 code",
+      "type": "string",
+      "table": 2
+    },
+    {
+      "name": "Alpha-3 code",
+      "type": "string",
+      "table": 2
+    },
+    {
+      "name": "Numeric code",
+      "type": "string",
+      "table": 2
+    },
+    {
+      "name": "Latitude (average)",
+      "type": "string",
+      "table": 2
+    },
+    {
+      "name": "Longitude (average)",
+      "type": "string",
+      "table": 2
     }
   ],
   "resolvedSelectedColumns": [],
@@ -336,6 +388,11 @@
       "originLabel": "Series",
       "index": 1,
       "computedColumns": []
+    },
+    {
+      "outputColumnsSelectionMode": "AUTO_NON_CONFLICTING",
+      "preFilter": {},
+      "index": 2
     }
   ],
   "computedColumns": [],
@@ -541,6 +598,30 @@
           },
           {
             "name": "Long definition",
+            "type": "string"
+          },
+          {
+            "name": "Country",
+            "type": "string"
+          },
+          {
+            "name": "Alpha-2 code",
+            "type": "string"
+          },
+          {
+            "name": "Alpha-3 code",
+            "type": "string"
+          },
+          {
+            "name": "Numeric code",
+            "type": "string"
+          },
+          {
+            "name": "Latitude (average)",
+            "type": "string"
+          },
+          {
+            "name": "Longitude (average)",
             "type": "string"
           }
         ],

@@ -19,6 +19,10 @@
         {
           "ref": "Series",
           "deps": []
+        },
+        {
+          "ref": "countries_codes_and_coordinates",
+          "deps": []
         }
       ]
     }
@@ -35,11 +39,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1688487987372,
+    "lastModifiedOn": 1688916631479,
     "extendedProperties": {}
   },
   "creationTag": {
