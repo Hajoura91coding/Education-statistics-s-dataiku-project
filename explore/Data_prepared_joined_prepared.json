@@ -84,7 +84,7 @@
             "numParams": {
               "emptyBinsMode": "ZEROS"
             },
-            "maxValues": 20,
+            "maxValues": 152,
             "generateOthersCategory": true,
             "oneTickPerBin": false,
             "filters": [],
@@ -1354,7 +1354,7 @@
         "smoothing": true,
         "showLegend": true,
         "showXAxis": false,
-        "showInChartValues": false,
+        "showInChartValues": true,
         "showInChartTotalValues": true,
         "showInChartLabels": true,
         "strokeWidth": 2,
