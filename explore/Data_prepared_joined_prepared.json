@@ -98,19 +98,19 @@
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Average of 2011, descending"
+                "label": "taux moyen d\u0027inscription pour le primaire, descending"
               },
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Average of 2011, ascending",
+                "label": "taux moyen d\u0027inscription pour le primaire, ascending",
                 "sortAscending": true
               }
             ],
             "sort": {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Average of 2011, descending"
+              "label": "taux moyen d\u0027inscription pour le primaire, descending"
             }
           }
         ],
@@ -126,7 +126,7 @@
             "isA": "measure",
             "displayAxis": "axis1",
             "displayType": "column",
-            "computeMode": "NORMAL",
+            "computeMode": "PERCENTAGE",
             "computeModeDim": 0,
             "multiplier": "Auto",
             "displayLabel": "taux moyen d\u0027inscription pour le primaire",
