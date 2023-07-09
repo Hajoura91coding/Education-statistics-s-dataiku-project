@@ -61,11 +61,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1688914495345,
+    "lastModifiedOn": 1688916809503,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -139,7 +139,13 @@
       {"name":"2011","type":"double"},
       {"name":"2012","type":"double"},
       {"name":"2013","type":"double"},
-      {"name":"2014","type":"double"}
+      {"name":"2014","type":"double"},
+      {"name":"Country","type":"string"},
+      {"name":"Alpha-2 code","type":"string"},
+      {"name":"Alpha-3 code","type":"string"},
+      {"name":"Numeric code","type":"bigint"},
+      {"name":"Latitude (average)","type":"bigint"},
+      {"name":"Longitude (average)","type":"bigint"}
     ],
     "userModified": true
   },
