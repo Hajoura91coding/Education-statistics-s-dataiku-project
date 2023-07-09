@@ -74,7 +74,7 @@
       "def": {
         "type": "stacked_bars",
         "variant": "normal",
-        "name": "Count GDP at market place in 1970",
+        "name": "Taux d\u0027inscriptions au primaire en 2011",
         "userEditedName": true,
         "displayWithEChartsByDefault": true,
         "genericDimension0": [
@@ -129,6 +129,7 @@
             "computeMode": "NORMAL",
             "computeModeDim": 0,
             "multiplier": "Auto",
+            "displayLabel": "taux moyen d\u0027inscription pour le primaire",
             "showDisplayLabel": true,
             "labelPosition": "BOTTOM",
             "colorRules": []
@@ -1439,7 +1440,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAABQCAYAAADSm7GJAAAAAXNSR0IArs4c6QAAAuNJREFUeF7tnLFOFFEUhudQWfkEBIFXMKEltuxioi9CYxBCszEhGSx8AlufQLQysbHS2JiQkJgIuxBaLG3mXrLamp3L/HPPnHv2p+XOOf/5vr2ZOwu7UvHHNQFxPR2HqyjY+YuAginYOQHn43EHU7BzAs7H4w6mYOcEnI/HHUzBzgk4H487mIIXE9g4+vDIOaMix7s4Hk3nweEdvH74cTuGMCmSgtPQIvLjsh7tUTAFtxPgDm5npL2CO1ibuHI/ClYGrt2uV8Gr+++3tAdgv3YC1693v/ZyyGpvxRVDEoAfk4YMz97tBGDBf0/RTXzR3oorchEIK82rq/rpt//V70cw3+jI5S6pbpCwT8FJqMpcRMFlektOTcHJqMpcmF1wFeNGmWh8pG6q5izbPdgHIr9TwKdov2h8TAYLnj8HhxB3fOAoZwqR6ue0Hr1tS9yLYP7Bvw1zht+LvKPgDFzNlKRgMyryBKHgPFzNVFUV3IRdM4MvS5AVOVe5By8Lz1LnhE/RpQ6+LLlhwf+egxv+87vWK0bkZlaPP6W260Uwn4NTceProlTHFIxzNFuBgs2q6ScYBffD0WyVgQTHl2aJOAsWJb5RvQc74+duHPgU7Y6Is4FgwWsHp4+dMTE5zqwef+8SDBbMj492wX7fa+T39GT07L5XzddTcBdq6tdQsDpy3YYUrMtbvRsFqyPXbTig4LWD003dYZez26we/+oyOXzI6tKU1+gRgAWvTz4/0Ivrs9Pl5MmfXJPhgvlFaJCbKNXzWT2+hYosuJiCc5FNrEvBiaBKXUbBpZpLzE3BiaBKXVaE4BCah6UCHjy3yBfTh6zBATHAQgLwKZp8bROgYNt+4HQUDCO0XYCCbfuB01EwjNB2AQq27QdOR8EwQtsFKNi2HzgdBcMIbRegYNt+4HQUDCO0XYCCbfuB01EwjNB2AQq27QdOR8EwQtsFKNi2HzgdBcMIbRegYNt+4HQUDCO0XeAOsVA6YDb1sJEAAAAASUVORK5CYII\u003d",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAABQCAYAAADSm7GJAAAAAXNSR0IArs4c6QAAAvhJREFUeF7tnLFuE0EQhm/XV0FFG0UpkHgHSsoIx1JQGp6CLlK6pII4KVLQEdHyAIQnoENp8gJIcYIogQqhgH2RI8pItzs3e7ez/tLezs4/35eT92zZruKvaAKu6OkYrkJw4f8ECEZw4QQKH487GMGFEyh8PO5gBBdOoPDx1O7g9d2zJyPnXhbOy8Z4rvk6m04+LMPqCvbunQ0CpadsThFctGMEF623qhCM4FgCd4csXoNjsSVan+gO9s4/TZSYbSMIOLeYqx+yIvqztEcCao9JPWamVQQBNcHL1+Dau8cRvVmqRODfTX3+7WTzx33bqQrmkKVkLHKb+U29g+BIaJaWI9iSLUFWBAugWSpBsCVbgqz9CXbulSAfJR0JzP/W+8kPWR0zUp6IgNpjUqJ8bNuRgJrgjb1PjzpmoTySwNXh1s+2EjXBfJrUhlr3+qKpTq6Ptj627YrgNkKZXkdwpmK0YiFYi2Sm+yA4UzFasRCsRTLTfXoXvHZw9iBTFsXG+n4w+d02nNopuq0R14chgOBhuPfWVU3w/zc6dntLvqKNnHfvL9+Mv4SOry2Y7yaFkheuc97tIVgIz0IZgi1Y6pARwR3gWShFsAVLHTIOKriuR2sdslMaRKD5M8ghKygbi3onoPaY1HtyGgYRUBO8fKPD+9GzoK4siiZwNX1+Gl3Ej7BIkA1Q0zS/ZkeTF5LOqncwXz6TKAioQXAAJMtLEGzZXkB2BAdAsrwkG8Ejv22ZY87ZZ4fjY0k+tUOWpDk16QkgOD3jQTuoCb77EZbKPxx0GqPNL4/HF6miqwrmOThe06Jy+9fT8ef4yrAKBIdxSrYKwcnQ5rExgvPwkCwFgpOhzWNja4Jf54HNTopF5d6aOGTZQbpaSdVO0auFzc60CLbjSpQUwSJsdooQbMeVKCmCRdjsFCHYjitRUgSLsNkpQrAdV6KkCBZhs1OEYDuuREkRLMJmpwjBdlyJkiJYhM1OEYLtuBIlRbAIm50iBNtxJUqKYBE2O0W3QggEYB2YzcUAAAAASUVORK5CYII\u003d",
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT",
         "legendFormatting": {
