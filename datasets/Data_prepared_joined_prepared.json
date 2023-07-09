@@ -61,11 +61,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1688912972717,
+    "lastModifiedOn": 1688914495345,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -90,7 +90,7 @@
   },
   "schema": {
     "columns": [
-      {"name":"Country Name","type":"geometry"},
+      {"name":"Country Name","type":"geopoint"},
       {"name":"Country Code","type":"geopoint"},
       {"name":"Indicator Name","type":"string"},
       {"name":"Long definition","type":"string"},
