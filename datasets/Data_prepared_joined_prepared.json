@@ -61,11 +61,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1688916809503,
+    "lastModifiedOn": 1688917757844,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -145,7 +145,8 @@
       {"name":"Alpha-3 code","type":"string"},
       {"name":"Numeric code","type":"bigint"},
       {"name":"Latitude (average)","type":"bigint"},
-      {"name":"Longitude (average)","type":"bigint"}
+      {"name":"Longitude (average)","type":"bigint"},
+      {"name":"GeoPoint","type":"string"}
     ],
     "userModified": true
   },
