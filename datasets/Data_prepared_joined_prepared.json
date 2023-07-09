@@ -61,11 +61,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1688912892902,
+    "lastModifiedOn": 1688912972717,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -90,8 +90,8 @@
   },
   "schema": {
     "columns": [
-      {"name":"Country Name","type":"string"},
-      {"name":"Country Code","type":"string"},
+      {"name":"Country Name","type":"geometry"},
+      {"name":"Country Code","type":"geopoint"},
       {"name":"Indicator Name","type":"string"},
       {"name":"Long definition","type":"string"},
       {"name":"Indicator Code","type":"string"},
@@ -139,8 +139,7 @@
       {"name":"2011","type":"double"},
       {"name":"2012","type":"double"},
       {"name":"2013","type":"double"},
-      {"name":"2014","type":"double"},
-      {"name":"GPS","type":"string"}
+      {"name":"2014","type":"double"}
     ],
     "userModified": true
   },
