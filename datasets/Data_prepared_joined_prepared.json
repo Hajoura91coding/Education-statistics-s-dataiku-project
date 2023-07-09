@@ -61,11 +61,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1688917757844,
+    "lastModifiedOn": 1688918208434,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -90,7 +90,6 @@
   },
   "schema": {
     "columns": [
-      {"name":"Country Name","type":"geopoint"},
       {"name":"Country Code","type":"geopoint"},
       {"name":"Indicator Name","type":"string"},
       {"name":"Long definition","type":"string"},
@@ -146,6 +145,9 @@
       {"name":"Numeric code","type":"bigint"},
       {"name":"Latitude (average)","type":"bigint"},
       {"name":"Longitude (average)","type":"bigint"},
+      {"name":"Region","type":"string"},
+      {"name":"Income Group","type":"string"},
+      {"name":"Country Name","type":"geopoint"},
       {"name":"GeoPoint","type":"string"}
     ],
     "userModified": true
