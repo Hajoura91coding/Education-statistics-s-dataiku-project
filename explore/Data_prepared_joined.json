@@ -381,15 +381,16 @@
       "def": {
         "type": "stacked_bars",
         "variant": "normal",
-        "name": "Avg of 2011 by Income Group and Indicator Name",
-        "userEditedName": false,
+        "name": "Taux d\u0027inscriptions au primaire en 2011",
+        "userEditedName": true,
         "displayWithEChartsByDefault": true,
         "genericDimension0": [
           {
             "column": "Income Group",
             "type": "ALPHANUM",
             "numParams": {
-              "emptyBinsMode": "ZEROS"
+              "emptyBinsMode": "ZEROS",
+              "nbBins": ""
             },
             "maxValues": 20,
             "generateOthersCategory": true,
@@ -405,59 +406,24 @@
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Average of 2011, descending"
+                "label": "Taux d\u0027inscription pour le primaire, descending"
               },
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Average of 2011, ascending",
+                "label": "Taux d\u0027inscription pour le primaire, ascending",
                 "sortAscending": true
               }
             ],
             "sort": {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Average of 2011, descending"
-            }
-          }
-        ],
-        "genericDimension1": [
-          {
-            "column": "Indicator Name",
-            "type": "ALPHANUM",
-            "numParams": {
-              "emptyBinsMode": "ZEROS"
+              "label": "Taux d\u0027inscription pour le primaire, descending"
             },
-            "maxValues": 20,
-            "generateOthersCategory": true,
-            "oneTickPerBin": false,
-            "filters": [],
-            "isA": "dimension",
-            "possibleSorts": [
-              {
-                "type": "NATURAL",
-                "label": "Natural ordering",
-                "sortAscending": true
-              },
-              {
-                "type": "AGGREGATION",
-                "measureIdx": 0,
-                "label": "Average of 2011, descending"
-              },
-              {
-                "type": "AGGREGATION",
-                "measureIdx": 0,
-                "label": "Average of 2011, ascending",
-                "sortAscending": true
-              }
-            ],
-            "sort": {
-              "type": "AGGREGATION",
-              "measureIdx": 0,
-              "label": "Average of 2011, descending"
-            }
+            "displayLabel": "Groupe par revenue"
           }
         ],
+        "genericDimension1": [],
         "facetDimension": [],
         "animationDimension": [],
         "genericMeasures": [
@@ -469,8 +435,10 @@
             "isA": "measure",
             "displayAxis": "axis1",
             "displayType": "column",
-            "computeMode": "NORMAL",
+            "computeMode": "PERCENTAGE",
             "computeModeDim": 0,
+            "multiplier": "Auto",
+            "displayLabel": "Taux d\u0027inscription pour le primaire",
             "showDisplayLabel": true,
             "labelPosition": "BOTTOM",
             "colorRules": []
@@ -785,8 +753,9 @@
               "Enrolment in lower secondary general, both sexes (number)": true,
               "Enrolment in lower secondary general, female (number)": true,
               "Percentage of students in lower secondary general education who are female (%)": true,
-              "Gross enrolment ratio, primary, both sexes (%)": true,
+              "Gross enrolment ratio, primary, female (%)": true,
               "Gross enrolment ratio, primary, gender parity index (GPI)": true,
+              "Gross enrolment ratio, primary, male (%)": true,
               "Gross outbound enrolment ratio, all regions, both sexes (%)": true,
               "Enrolment in primary education, public institutions, both sexes (number)": true,
               "Population of compulsory school age, both sexes (number)": true,
@@ -2492,6 +2461,7 @@
         "xAxisFormatting": {
           "displayAxis": true,
           "showAxisTitle": true,
+          "axisTitle": "Taux d\u0027inscritpion primaire en 2011",
           "axisTitleFormatting": {
             "fontSize": 15,
             "fontColor": "#333",
@@ -2513,6 +2483,7 @@
         "yAxisFormatting": {
           "displayAxis": true,
           "showAxisTitle": true,
+          "axisTitle": "Groupe par revenues",
           "axisTitleFormatting": {
             "fontSize": 15,
             "fontColor": "#333",
@@ -2537,7 +2508,7 @@
         "smoothing": true,
         "showLegend": true,
         "showXAxis": false,
-        "showInChartValues": false,
+        "showInChartValues": true,
         "showInChartTotalValues": true,
         "showInChartLabels": true,
         "strokeWidth": 2,
@@ -2622,7 +2593,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAABQCAYAAADSm7GJAAAAAXNSR0IArs4c6QAAA5xJREFUeF7tm8tPU0EUxntvWysxMbTFSrBgrPVVYhNbDZWNbvCBoNBYVrB144LEva7YYHRp/BeMceNSt7o0cWc0wdfCWEFSky6Ij3JNDbrAPuZyZuaeGT62nDPzne83586daeuE8Ge1A47V1aG4EABbvggAGIAtd8Dy8tDBAGy5A5aXhw4GYMsdsLw8qR1cvPYiupKo3jDds7kTmeypob4lY+twQm+nSqlHTf3SAX+NV58aa8yG8NlCZunkUCJrah2O494D4A70ALiNOc1HNDo4+L5HB3dhgA5GBwffph0UoIPRwVtboBt78PzWsvlkzRYyR4qD8Td8FPlT4rrhD0reov3JQLQOB6Seg3UIxhz+HABgf34ZFy0VcHMPXk5WS8a50ELw/OjRZDa1e9XEWqZGUs/+6pYO2IaLjqY5ixOFb7GI22saYC8Uelk+3f/v8wAAbkMQgFsYY8tVJTrY8pssAAZgtlsz9mBBNNiD2+/BDwQ9ZB22OFFwY5HwOmuRLcR5Ie+jsrdo08zYDnqlHpO2g2Gm1QjAphHzqVcu4MrDsM/52YVXhofDlVyuwU6YgKCZGec/3VIB23DRcWvs+KfErtg+AT9ZhXjO+s1yaeD5ZlEAvMkRAO6wbtHBwTU1OljQe3QwOlhwqegNQwcL+o0ORgcLLhW9Ydo6eDX5+aDe0uTOdvnY/sxYduCd3FH1jDY52vda6TFJTxmYxY8DUs/BfiZGrB4HAFiPz4HNIhXwn1/4x78sBFYNYeKzmdSe6Xx6hTBEYKme27hdHkm3/IqvdMCmfm32TGbv++n84IHAKBEm9txfVwG4i4EALLDCTL6LBmAAFnAgmBA8ogV8RwcLmIRHtIBJCkL0dnBieU5BDcqHPH+4P3cpl36lfCIFEzScH4+1vEUr0I4hiQ5IPQcTtSBdgQMArMBUTkNKBbzxC/+LnAoU0bJwLt/Tu3PHmkgsl5horf5kfPzQ9256pAM28ary7pXiWthxerqZxen/sVr9AgALEgFgQaNMPQcDMAALOqAvDI9oH16jgwXNwiNa0CgJYUF28H0J+rUOcWeyEI2E3Z9aJyVOFqvVr2t/iyZqRroCB6SegxXow5BEBwCYaCD3dADmToioD4CJBnJPB2DuhIj6AJhoIPd0AOZOiKgPgIkGck8HYO6EiPoAmGgg93QA5k6IqA+AiQZyTwdg7oSI+gCYaCD3dADmToioD4CJBnJPB2DuhIj6fgPsqnlgU5iNGAAAAABJRU5ErkJggg\u003d\u003d",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAABQCAYAAADSm7GJAAAAAXNSR0IArs4c6QAAArNJREFUeF7tmzFrU1EYhu/tZOno3LQI/guXjmqKOIijg/gTTHTLZhMnERc3R8FBaMBRBH+GSLw6Oji6hIigWKQl98L3vd85H0/XHs77fs9zbshpk7bhJzWBNvV0DNcgOPkhQDCCkxNIPh5PMIKTE0g+Hk8wgpMTSD4eTzCC+xMYTZb3+q9mpSeBbjF+9Xt/0yf4YLp82TTNVc/i7L2dwKZp33bzm88QvJ1VlSsQXKW2/qUR3J9VlSsRXKW2/qUR3J9VlSvdBO8/PL1bJZGEpb8+PX5t/i46IafqRzK9B1dPI+EACE4o9exIpoIPJ6ePk/OqYrzV4vjJ36KmgvlTZRH+v3+Zj+8guAgXLiUQ7IK1nE0RXI4LlyYIdsFazqYILseFSxM/waPpu2suldl0EIFufv2jy7voQS1YLCFgeg+WNCZkEAEED8JV32JTwQeT5fP6EORovGl2PnSLG2/+n8ZWMJ+qDDstm83OCwSH4fcPRrA/49AEBIfi9w9HsD/j0AQEh+L3D5cIHj1aXvEfhYSLCHQn48+u1yTQl0fA9B5c3ng0QnDyM2Aq+M+H7i4nZ1bceOt2Pf12cuvTecU8BPMFcPERWLfrBwgWQ1fGIVhJOyALwQHQlZEIVtIOyEJwAHRlpEzw4ez9JeVgZP0jsJod/XS/JgG8PAKm9+DyxqORqWBeorUH6qKX5bMtTAXz/WCd4HZ37/ZqdvRjWyKCtxEq9PcILlSMVS0EW5EsdB8EFyrGqhaCrUgWuk+kYP7hLzgU7e7effm7aMFcRAwkYHpNGpjNcgEBBAsgR0YgOJK+IBvBAsiREQiOpC/IRrAAcmQEgiPpC7IRLIAcGYHgSPqCbAQLIEdGIDiSviAbwQLIkREIjqQvyEawAHJkBIIj6QuyESyAHBmB4Ej6gmwECyBHRvwC2AfiUV2Hi4MAAAAASUVORK5CYII\u003d",
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT",
         "legendFormatting": {
