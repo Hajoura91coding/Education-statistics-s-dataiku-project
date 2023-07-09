@@ -69,8 +69,31 @@
   },
   "charts": [
     {
-      "copySelectionFromScript": true,
+      "copySelectionFromScript": false,
       "engineType": "LINO",
+      "refreshableSelection": {
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": 10000,
+          "targetRatio": 0.02,
+          "ascending": true,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        },
+        "autoRefreshSample": false,
+        "_refreshTrigger": 0
+      },
       "def": {
         "type": "stacked_bars",
         "variant": "normal",
@@ -269,7 +292,7 @@
               "Gross enrolment ratio, pre-primary, female (%)": true,
               "Gross enrolment ratio, pre-primary, gender parity index (GPI)": true,
               "Gross enrolment ratio, pre-primary, male (%)": true,
-              "Gross enrolment ratio, primary and lower secondary, female (%)": true,
+              "Gross enrolment ratio, primary and lower secondary, both sexes (%)": true,
               "Gross enrolment ratio, primary and lower secondary, gender parity index (GPI)": true,
               "Gross enrolment ratio, primary and lower secondary, male (%)": true,
               "Gross enrolment ratio, primary and secondary, both sexes (%)": true,
@@ -1440,7 +1463,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAABQCAYAAADSm7GJAAAAAXNSR0IArs4c6QAAAvhJREFUeF7tnLFuE0EQhm/XV0FFG0UpkHgHSsoIx1JQGp6CLlK6pII4KVLQEdHyAIQnoENp8gJIcYIogQqhgH2RI8pItzs3e7ez/tLezs4/35eT92zZruKvaAKu6OkYrkJw4f8ECEZw4QQKH487GMGFEyh8PO5gBBdOoPDx1O7g9d2zJyPnXhbOy8Z4rvk6m04+LMPqCvbunQ0CpadsThFctGMEF623qhCM4FgCd4csXoNjsSVan+gO9s4/TZSYbSMIOLeYqx+yIvqztEcCao9JPWamVQQBNcHL1+Dau8cRvVmqRODfTX3+7WTzx33bqQrmkKVkLHKb+U29g+BIaJaWI9iSLUFWBAugWSpBsCVbgqz9CXbulSAfJR0JzP/W+8kPWR0zUp6IgNpjUqJ8bNuRgJrgjb1PjzpmoTySwNXh1s+2EjXBfJrUhlr3+qKpTq6Ptj627YrgNkKZXkdwpmK0YiFYi2Sm+yA4UzFasRCsRTLTfXoXvHZw9iBTFsXG+n4w+d02nNopuq0R14chgOBhuPfWVU3w/zc6dntLvqKNnHfvL9+Mv4SOry2Y7yaFkheuc97tIVgIz0IZgi1Y6pARwR3gWShFsAVLHTIOKriuR2sdslMaRKD5M8ghKygbi3onoPaY1HtyGgYRUBO8fKPD+9GzoK4siiZwNX1+Gl3Ej7BIkA1Q0zS/ZkeTF5LOqncwXz6TKAioQXAAJMtLEGzZXkB2BAdAsrwkG8Ejv22ZY87ZZ4fjY0k+tUOWpDk16QkgOD3jQTuoCb77EZbKPxx0GqPNL4/HF6miqwrmOThe06Jy+9fT8ef4yrAKBIdxSrYKwcnQ5rExgvPwkCwFgpOhzWNja4Jf54HNTopF5d6aOGTZQbpaSdVO0auFzc60CLbjSpQUwSJsdooQbMeVKCmCRdjsFCHYjitRUgSLsNkpQrAdV6KkCBZhs1OEYDuuREkRLMJmpwjBdlyJkiJYhM1OEYLtuBIlRbAIm50iBNtxJUqKYBE2O0W3QggEYB2YzcUAAAAASUVORK5CYII\u003d",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAABQCAYAAADSm7GJAAAAAXNSR0IArs4c6QAAAtFJREFUeF7tnL1qFFEUgOfObqVV2hAsBN/B0jqZBUufQBDULmChkCpxEnwB7X2B2AQrC30DxUbYSWFrFyySGdklpTD3LOfeO+fsl3bPnJ/vy2HvTJiEih/XBILr6RiuQrDzXwIEI9g5AefjscEIdk7A+XhsMIKdE3A+ntoG7x2eP5iF8MQ5LxvjheFX1y4+rprVFVyH9zYIeO9y+IBg144R7FpvVSEYwVIC60MW38FSbIniE21wHeqHiTomrYBACP2N+iFLUJ/QjATUbpMy9kwpAQE1wavv4Hkd7gtqE6pIYNk2F/9LpyqYQ5aiMVGq8L1rD54jWATNUjCCLdnaoFcEbwDN0iUItmRrg15zCQ7h5QbdcYkCge60eZH0kKXQIykSEFC7TUrQGykVCKgJvvfq045CP6QQELh82/wZC1cTzF+TxlCrf/65a5vjsawIHiM03c8RPF03Kp0hWAXjdJMgeLpuVDpDsArG6SbJK3j36PzOdFn47Oz30eJqbDK1U/RYIT4vQwDBZbhnq6om+PZBx2G2zre0UNc2TyWjawvm3SQJfWnsUF11p82B5DIES2iVjkVwaQOJ6yM4MeDS6RFc2kDi+qUFz+ez3cQjbn365cn+FwkEtUOWpCix+QggOB/rIpXUBK8edNT17FGRKbahaF/9uDzb/yodVVUw7yZJ8cfHD339GsHxvMxFIticMlnDCJbxMheNYHPKZA1PQ/Csfixrm+hYAsNN+Fb0kBXbKHF5CajdJuVtm2qxBNQEr/8JS1XfjS281XF9/3f5bvEzBwNVwTzoiFMWrodnCI5jZTIKwSa1xTeN4HhWJiMRbFJbfNOWBY++kByPwW9kuB7emDtk+dVhezK12yTbGPx2j2C/bteTIRjBzgk4H48NRrBzAs7HY4MR7JyA8/HYYAQ7J+B8PDYYwc4JOB+PDUawcwLOx2ODEeycgPPx2GDngv8BSCD4USNXAvcAAAAASUVORK5CYII\u003d",
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT",
         "legendFormatting": {
