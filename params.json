@@ -43,7 +43,6 @@
       "zonesGraphForJobs": true
     },
     "gitCommitMode": "AUTO",
-    "useRemoteGit": true,
     "disableAutomaticTriggers": false,
     "integrations": {
       "integrations": []
@@ -219,11 +218,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 36,
+    "versionNumber": 37,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1688990080638,
+    "lastModifiedOn": 1688997192412,
     "extendedProperties": {}
   },
   "creationTag": {
