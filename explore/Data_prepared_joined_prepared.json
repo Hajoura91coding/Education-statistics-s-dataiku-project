@@ -3035,7 +3035,6 @@
             "excludedValues": {
               "Population growth (annual %)": true,
               "Internet users (per 100 people)": true,
-              "GDP per capita (current US$)": true,
               "GDP at market prices (constant 2005 US$)": true,
               "GDP per capita (constant 2005 US$)": true,
               "Total outbound internationally mobile tertiary students studying abroad, all countries, both sexes (number)": true,
