@@ -115,7 +115,10 @@
             "type": "NUMERICAL",
             "treatAsAlphanum": false,
             "isA": "ua",
-            "adminLevel": 0
+            "adminLevel": 0,
+            "multiplier": "Auto",
+            "prefix": "",
+            "suffix": ""
           }
         ],
         "uaShape": [],
@@ -2339,7 +2342,10 @@
               "type": "AGGREGATION",
               "measureIdx": 0,
               "label": "Count of records, descending"
-            }
+            },
+            "prefix": "",
+            "suffix": "",
+            "multiplier": "Auto"
           }
         ],
         "genericDimension1": [],
@@ -2355,6 +2361,9 @@
             "displayType": "column",
             "computeMode": "NORMAL",
             "computeModeDim": 0,
+            "multiplier": "Auto",
+            "prefix": "",
+            "suffix": "",
             "showDisplayLabel": true,
             "labelPosition": "BOTTOM",
             "colorRules": []
@@ -3038,6 +3047,7 @@
           "defaultRadius": 5.0,
           "singleShape": "FILLED_CIRCLE"
         },
+        "computeMode": "NORMAL",
         "xAxisMode": "NORMAL",
         "yAxisMode": "NORMAL",
         "pieOptions": {
