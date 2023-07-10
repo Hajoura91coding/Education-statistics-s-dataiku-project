@@ -98,8 +98,8 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": -1,
-              "left": -1,
+              "top": 0,
+              "left": 0,
               "width": 2,
               "height": 2
             },
@@ -131,11 +131,11 @@
   "name": "Education Statistics\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 18,
+    "versionNumber": 19,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1688970644206,
+    "lastModifiedOn": 1688970644608,
     "extendedProperties": {}
   },
   "creationTag": {
